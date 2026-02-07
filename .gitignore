@@ -1,2 +1,5 @@
 venv/
 Infografía.pptx
+.env
+**/.env
+node_modules/
