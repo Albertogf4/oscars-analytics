@@ -10,8 +10,8 @@ const chalk = require('chalk');
 const fs = require('fs');
 const path = require('path');
 
-// Results directory (../results relative to this script)
-const RESULTS_DIR = path.resolve(__dirname, '../results');
+// Results directory (../results/youtube relative to this script)
+const RESULTS_DIR = path.resolve(__dirname, '../results/youtube');
 
 const sentiment = new Sentiment();
 
