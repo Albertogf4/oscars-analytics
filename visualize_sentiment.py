@@ -8,10 +8,10 @@ import json
 from pathlib import Path
 
 
-def load_comparison_data(script_dir: Path) -> tuple[pd.DataFrame, dict]:
-    """Load comparison CSV and JSON data."""
-    csv_path = script_dir / "movie_comparison.csv"
-    json_path = script_dir / "movie_comparison.json"
+def load_comparison_data(sentiment_dir: Path) -> tuple[pd.DataFrame, dict]:
+    """Load comparison CSV and JSON data from sentiment_analyzed directory."""
+    csv_path = sentiment_dir / "movie_comparison.csv"
+    json_path = sentiment_dir / "movie_comparison.json"
     
     df = pd.read_csv(csv_path)
     with open(json_path, 'r', encoding='utf-8') as f:
@@ -465,19 +465,22 @@ def generate_html_dashboard(df: pd.DataFrame, viz_data: dict, output_path: Path)
 
 def main():
     script_dir = Path(__file__).parent
+    sentiment_dir = script_dir / "sentiment_analyzed"
+    visualizations_dir = script_dir / "visualizations"
+    visualizations_dir.mkdir(exist_ok=True)
     
     print("📂 Loading comparison data...")
     
     try:
-        df, viz_data = load_comparison_data(script_dir)
+        df, viz_data = load_comparison_data(sentiment_dir)
     except FileNotFoundError:
-        print("❌ Comparison files not found! Run compare_sentiment.py first.")
+        print("❌ Comparison files not found in sentiment_analyzed/! Run compare_sentiment.py first.")
         return
     
     print(f"✅ Loaded data for {len(df)} movies")
     
     # Generate HTML Dashboard
-    html_path = script_dir / "sentiment_dashboard.html"
+    html_path = visualizations_dir / "sentiment_dashboard.html"
     generate_html_dashboard(df, viz_data, html_path)
     print(f"\n🎨 HTML Dashboard created: {html_path}")
     print(f"\n🌐 Open in browser: file://{html_path}")

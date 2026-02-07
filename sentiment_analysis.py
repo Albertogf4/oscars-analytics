@@ -158,7 +158,8 @@ def main(comments_file: str):
     print(f"  📊 Average Compound Score: {overall_summary['avg_compound']}")
     
     # Export to CSV with movie name
-    output_dir = Path(__file__).parent
+    output_dir = Path(__file__).parent / "sentiment_analyzed"
+    output_dir.mkdir(exist_ok=True)
     df = pd.DataFrame(all_results)
     csv_path = output_dir / f"sentiment_results_{movie_name}.csv"
     df.to_csv(csv_path, index=False, encoding='utf-8')
@@ -182,9 +183,10 @@ if __name__ == "__main__":
     
     # Get directory where this script is located
     script_dir = Path(__file__).parent
+    raw_data_dir = script_dir / "raw_data"
     
-    # Find all JSON files in the directory
-    json_files = list(script_dir.glob("comments_*.json"))
+    # Find all JSON files in the raw_data directory
+    json_files = list(raw_data_dir.glob("comments_*.json"))
     
     if not json_files:
         print("❌ No JSON files found matching 'comments_*.json' pattern")

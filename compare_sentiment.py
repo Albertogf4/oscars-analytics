@@ -8,10 +8,10 @@ from pathlib import Path
 import json
 
 
-def load_all_results(directory: Path) -> dict[str, pd.DataFrame]:
-    """Load all sentiment result CSVs from directory."""
+def load_all_results(sentiment_dir: Path) -> dict[str, pd.DataFrame]:
+    """Load all sentiment result CSVs from sentiment_analyzed directory."""
     results = {}
-    for csv_file in directory.glob("sentiment_results_*.csv"):
+    for csv_file in sentiment_dir.glob("sentiment_results_*.csv"):
         # Extract movie name from filename
         movie_name = csv_file.stem.replace("sentiment_results_", "")
         results[movie_name] = pd.read_csv(csv_file)
@@ -122,12 +122,13 @@ def print_comparison_report(comparison_df: pd.DataFrame):
 def main():
     # Get directory where this script is located
     script_dir = Path(__file__).parent
+    sentiment_dir = script_dir / "sentiment_analyzed"
     
     print("📂 Loading sentiment results...")
-    all_results = load_all_results(script_dir)
+    all_results = load_all_results(sentiment_dir)
     
     if not all_results:
-        print("❌ No sentiment result files found!")
+        print("❌ No sentiment result files found in sentiment_analyzed/!")
         return
     
     print(f"✅ Found {len(all_results)} movie(s) to compare:")
@@ -140,14 +141,14 @@ def main():
     # Print report
     print_comparison_report(comparison_df)
     
-    # Export comparison CSV
-    csv_path = script_dir / "movie_comparison.csv"
+    # Export comparison CSV to sentiment_analyzed
+    csv_path = sentiment_dir / "movie_comparison.csv"
     comparison_df.to_csv(csv_path, index=False, encoding='utf-8')
     print(f"\n💾 Comparison CSV exported to: {csv_path}")
     
-    # Export visualization-ready JSON
+    # Export visualization-ready JSON to sentiment_analyzed
     viz_data = create_visualization_data(comparison_df)
-    json_path = script_dir / "movie_comparison.json"
+    json_path = sentiment_dir / "movie_comparison.json"
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(viz_data, f, indent=2, ensure_ascii=False)
     print(f"💾 Visualization JSON exported to: {json_path}")
