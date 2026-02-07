@@ -1,0 +1,5 @@
+movie,total_comments,positive_count,negative_count,neutral_count,positive_pct,negative_pct,neutral_pct,avg_compound,median_compound,std_compound,min_compound,max_compound
+F1 movie trailer,484,253,69,162,52.3,14.3,33.5,0.258,0.208,0.437,-0.888,0.997
+Sinners movie trailer,683,357,115,211,52.3,16.8,30.9,0.241,0.163,0.464,-0.945,0.992
+One Battle After Another trailer,566,294,122,150,51.9,21.6,26.5,0.206,0.188,0.487,-0.981,0.996
+Marty Supreme movie trailer,612,262,161,189,42.8,26.3,30.9,0.124,0.0,0.465,-0.922,0.991

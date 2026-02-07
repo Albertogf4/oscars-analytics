@@ -1,0 +1,86 @@
+{
+  "movies": [
+    "F1 movie trailer",
+    "Sinners movie trailer",
+    "One Battle After Another trailer",
+    "Marty Supreme movie trailer"
+  ],
+  "metrics": {
+    "total_comments": [
+      484,
+      683,
+      566,
+      612
+    ],
+    "positive_pct": [
+      52.3,
+      52.3,
+      51.9,
+      42.8
+    ],
+    "negative_pct": [
+      14.3,
+      16.8,
+      21.6,
+      26.3
+    ],
+    "neutral_pct": [
+      33.5,
+      30.9,
+      26.5,
+      30.9
+    ],
+    "avg_compound": [
+      0.258,
+      0.241,
+      0.206,
+      0.124
+    ]
+  },
+  "sentiment_distribution": [
+    {
+      "movie": "F1 movie trailer",
+      "Positive": 52.3,
+      "Negative": 14.3,
+      "Neutral": 33.5
+    },
+    {
+      "movie": "Sinners movie trailer",
+      "Positive": 52.3,
+      "Negative": 16.8,
+      "Neutral": 30.9
+    },
+    {
+      "movie": "One Battle After Another trailer",
+      "Positive": 51.9,
+      "Negative": 21.6,
+      "Neutral": 26.5
+    },
+    {
+      "movie": "Marty Supreme movie trailer",
+      "Positive": 42.8,
+      "Negative": 26.3,
+      "Neutral": 30.9
+    }
+  ],
+  "rankings": {
+    "by_positivity": [
+      "F1 movie trailer",
+      "Sinners movie trailer",
+      "One Battle After Another trailer",
+      "Marty Supreme movie trailer"
+    ],
+    "by_avg_compound": [
+      "F1 movie trailer",
+      "Sinners movie trailer",
+      "One Battle After Another trailer",
+      "Marty Supreme movie trailer"
+    ],
+    "by_engagement": [
+      "Sinners movie trailer",
+      "Marty Supreme movie trailer",
+      "One Battle After Another trailer",
+      "F1 movie trailer"
+    ]
+  }
+}
