@@ -1,0 +1,714 @@
+{
+  "generated_at": "2026-02-09T16:36:58.173686",
+  "sources": {
+    "youtube": {
+      "stats": {
+        "total": 3210,
+        "positive": 1583,
+        "negative": 693,
+        "neutral": 934,
+        "positive_pct": 49.3,
+        "negative_pct": 21.6,
+        "neutral_pct": 29.1,
+        "avg_compound": 0.193
+      },
+      "by_movie": {}
+    },
+    "reddit": {
+      "stats": {
+        "total": 5702,
+        "positive": 3087,
+        "negative": 1278,
+        "neutral": 1337,
+        "positive_pct": 54.1,
+        "negative_pct": 22.4,
+        "neutral_pct": 23.4,
+        "avg_compound": 0.207
+      },
+      "by_movie": {}
+    }
+  },
+  "global": {
+    "stats": {
+      "total": 8912,
+      "positive": 4670,
+      "negative": 1971,
+      "neutral": 2271,
+      "positive_pct": 52.4,
+      "negative_pct": 22.1,
+      "neutral_pct": 25.5,
+      "avg_compound": 0.202
+    },
+    "by_movie": {}
+  },
+  "movies": [
+    {
+      "name": "F1",
+      "youtube": {
+        "stats": {
+          "total": 484,
+          "positive": 253,
+          "negative": 69,
+          "neutral": 162,
+          "positive_pct": 52.3,
+          "negative_pct": 14.3,
+          "neutral_pct": 33.5,
+          "avg_compound": 0.258
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "When I first saw the advertisements for the F1 movie I knew I had to watch it. I personally am not too into the sport, but the immersive visuals hooke...",
+              "compound": 0.997,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Not being a particular Formula 1 fan, I didn't focus on the aesthetic boldness of director Joseph Kosinski. So I set aside any comparisons with the ha...",
+              "compound": 0.9937,
+              "sentiment": "positive"
+            },
+            {
+              "text": "❤️❤❤\n❤❤❤❤❤❤",
+              "compound": 0.9887,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "Just watched in telugu dubb its only 💥💥💥💥💥",
+              "compound": -0.8885,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Nice visuals, but the trailer pacing is pretty awful along with the extremely generic music. But even worse than that, the writing, the script... it's...",
+              "compound": -0.872,
+              "sentiment": "negative"
+            },
+            {
+              "text": "BRAD PITT HAS NO FLOPS: HE HAS CHURNED HIT AFTER HITS AND IT IS NOT EVEN CLOSE!\nOCEANS 1,2,3,BIG SHORT,ONCE UPON A TIME IN HOLLYWOOD, FIGHT CLUB,SEVEN...",
+              "compound": -0.829,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      "reddit": {
+        "stats": {
+          "total": 1414,
+          "positive": 772,
+          "negative": 284,
+          "neutral": 358,
+          "positive_pct": 54.6,
+          "negative_pct": 20.1,
+          "neutral_pct": 25.3,
+          "avg_compound": 0.222
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "Here are some reviews/thoughts I had to cut to fit the maximum character count:\n\n* **The Threesome** - 8/10 - Really really really great stuff. Smart,...",
+              "compound": 0.9993,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Firstly, respect, secondly, this is awesome. Not sure our tastes align exactly but got some good possible watches from your list which I appreciate!\n\n...",
+              "compound": 0.9913,
+              "sentiment": "positive"
+            },
+            {
+              "text": "I agree, but that’s kinda what movie talk on social media is when a film just releases. Give it a few months like you said and the conversation will b...",
+              "compound": 0.9899,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "That's 90 percent of the economy these days. Add on fees wherever you can, make them egregious, but unavoidable, and ignore the constant complaints.\n\n...",
+              "compound": -0.9688,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Not counting DC stuff:\n\n2023: house party ?, Magic Mike last dance did not break even, Evil dead rise was a big hit, Barbie highest grossing movie of ...",
+              "compound": -0.9618,
+              "sentiment": "negative"
+            },
+            {
+              "text": "*Evil Dead 2* and *Army of Darkness* are horror comedies.  Just a totally different tone.  I'm not a horror guy, and I love them.\n\nBut I will never wa...",
+              "compound": -0.9599,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      "combined": {
+        "stats": {
+          "total": 1898,
+          "positive": 1025,
+          "negative": 353,
+          "neutral": 520,
+          "positive_pct": 54.0,
+          "negative_pct": 18.6,
+          "neutral_pct": 27.4,
+          "avg_compound": 0.231
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "Here are some reviews/thoughts I had to cut to fit the maximum character count:\n\n* **The Threesome** - 8/10 - Really really really great stuff. Smart,...",
+              "compound": 0.9993,
+              "sentiment": "positive"
+            },
+            {
+              "text": "When I first saw the advertisements for the F1 movie I knew I had to watch it. I personally am not too into the sport, but the immersive visuals hooke...",
+              "compound": 0.997,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Not being a particular Formula 1 fan, I didn't focus on the aesthetic boldness of director Joseph Kosinski. So I set aside any comparisons with the ha...",
+              "compound": 0.9937,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Firstly, respect, secondly, this is awesome. Not sure our tastes align exactly but got some good possible watches from your list which I appreciate!\n\n...",
+              "compound": 0.9913,
+              "sentiment": "positive"
+            },
+            {
+              "text": "I agree, but that’s kinda what movie talk on social media is when a film just releases. Give it a few months like you said and the conversation will b...",
+              "compound": 0.9899,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "That's 90 percent of the economy these days. Add on fees wherever you can, make them egregious, but unavoidable, and ignore the constant complaints.\n\n...",
+              "compound": -0.9688,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Not counting DC stuff:\n\n2023: house party ?, Magic Mike last dance did not break even, Evil dead rise was a big hit, Barbie highest grossing movie of ...",
+              "compound": -0.9618,
+              "sentiment": "negative"
+            },
+            {
+              "text": "*Evil Dead 2* and *Army of Darkness* are horror comedies.  Just a totally different tone.  I'm not a horror guy, and I love them.\n\nBut I will never wa...",
+              "compound": -0.9599,
+              "sentiment": "negative"
+            },
+            {
+              "text": "From Variety:\n\n\n&gt; According to the countersuit, “Pitt choked one of the children and struck another in the face” and “grabbed Jolie by the head and...",
+              "compound": -0.9596,
+              "sentiment": "negative"
+            },
+            {
+              "text": "I saw that episode of Hot Ones too but I'm just not sure how much I believe it's true.  \n\nI always find the example he used to be so weird.  I mean he...",
+              "compound": -0.9583,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Marty Supreme",
+      "youtube": {
+        "stats": {
+          "total": 612,
+          "positive": 262,
+          "negative": 161,
+          "neutral": 189,
+          "positive_pct": 42.8,
+          "negative_pct": 26.3,
+          "neutral_pct": 30.9,
+          "avg_compound": 0.124
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "A remarkable film in every sense of the word. I was captivated by this film. it's a roller coaster ride and it's director Josh Safdie at his best. I a...",
+              "compound": 0.9906,
+              "sentiment": "positive"
+            },
+            {
+              "text": "aah oooo love this..thanx  4 making   Tee with '''LIONS NAMED LEO '' AND  \r\r\n'''TRAXTER'''  [ the music world wide]  and  TLC  out reach .[[[    and  ...",
+              "compound": 0.9692,
+              "sentiment": "positive"
+            },
+            {
+              "text": "I went to theatres with 0 expectations and I swear this movie blew my mind!! It's weird, amazing, funny afff, goofy, adrenaline rush in some scenes \nA...",
+              "compound": 0.9688,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "Good acting. Terrible movie.  Life failures, shootings, stealing, screwing.  Poor doggy was never saved.  Senseless movie",
+              "compound": -0.9221,
+              "sentiment": "negative"
+            },
+            {
+              "text": "What is the fucking point of this dumb movie? A24, you really should start filtering out your script ideas. Just because it's leftfield and wacky does...",
+              "compound": -0.9115,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Don’t waste ur time watching this flop of a movie 😂 sinners def is better! So many unnecessary sex scenes and nude scenes with NO BUTT like??? Not to ...",
+              "compound": -0.8805,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      "reddit": {
+        "stats": {
+          "total": 1416,
+          "positive": 719,
+          "negative": 329,
+          "neutral": 368,
+          "positive_pct": 50.8,
+          "negative_pct": 23.2,
+          "neutral_pct": 26.0,
+          "avg_compound": 0.182
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "Here are some reviews/thoughts I had to cut to fit the maximum character count:\n\n* **The Threesome** - 8/10 - Really really really great stuff. Smart,...",
+              "compound": 0.9993,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Well hey, I’m glad you liked it. I wanted to, but sometimes it just doesn’t hit. Didn’t see many redeeming qualities when everything was a ploy and ma...",
+              "compound": 0.9976,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Firstly, respect, secondly, this is awesome. Not sure our tastes align exactly but got some good possible watches from your list which I appreciate!\n\n...",
+              "compound": 0.9913,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "After reading your comment and seeing that it was the second/third negative comment about Kevin O'Leary, I decided to google him and find out why such...",
+              "compound": -0.9597,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Kevin O’Leary is a massive piece of shit. I hate his face. I hate his voice. I hate his ideas. I absolutely loathe every aspect of that man. I don’t k...",
+              "compound": -0.9595,
+              "sentiment": "negative"
+            },
+            {
+              "text": "You should also not support him because he tried and failed MISERABLY to become Canada's version of Trump. Now, he's just doing tricks on Trump's dick...",
+              "compound": -0.9538,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      "combined": {
+        "stats": {
+          "total": 2028,
+          "positive": 981,
+          "negative": 490,
+          "neutral": 557,
+          "positive_pct": 48.4,
+          "negative_pct": 24.2,
+          "neutral_pct": 27.5,
+          "avg_compound": 0.165
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "Here are some reviews/thoughts I had to cut to fit the maximum character count:\n\n* **The Threesome** - 8/10 - Really really really great stuff. Smart,...",
+              "compound": 0.9993,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Well hey, I’m glad you liked it. I wanted to, but sometimes it just doesn’t hit. Didn’t see many redeeming qualities when everything was a ploy and ma...",
+              "compound": 0.9976,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Firstly, respect, secondly, this is awesome. Not sure our tastes align exactly but got some good possible watches from your list which I appreciate!\n\n...",
+              "compound": 0.9913,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Both sides can be true. Studios can greenlight as many daring exciting ideas as they like but that doesn't mean that a) the general public will go see...",
+              "compound": 0.9907,
+              "sentiment": "positive"
+            },
+            {
+              "text": "A remarkable film in every sense of the word. I was captivated by this film. it's a roller coaster ride and it's director Josh Safdie at his best. I a...",
+              "compound": 0.9906,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "After reading your comment and seeing that it was the second/third negative comment about Kevin O'Leary, I decided to google him and find out why such...",
+              "compound": -0.9597,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Kevin O’Leary is a massive piece of shit. I hate his face. I hate his voice. I hate his ideas. I absolutely loathe every aspect of that man. I don’t k...",
+              "compound": -0.9595,
+              "sentiment": "negative"
+            },
+            {
+              "text": "You should also not support him because he tried and failed MISERABLY to become Canada's version of Trump. Now, he's just doing tricks on Trump's dick...",
+              "compound": -0.9538,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Absolutely killing it. Dude was made for the role and plays the horrible post war world traveling business man with no morals perfectly.",
+              "compound": -0.949,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Yeah, this is closer to the intent IMO. The story is told right after Rockwell had just said with seeming resentment, \"my son died for you.\" They didn...",
+              "compound": -0.9408,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "One Battle After Another",
+      "youtube": {
+        "stats": {
+          "total": 1431,
+          "positive": 711,
+          "negative": 348,
+          "neutral": 372,
+          "positive_pct": 49.7,
+          "negative_pct": 24.3,
+          "neutral_pct": 26.0,
+          "avg_compound": 0.178
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "Love your Content!!!🥰\nyou're a great and nice and wonderful and kind and amazing person🥰🥰🥰\nyou deserved it🫶🫶🫶\nhave a Blessed Sunday 🙏🙏🙏",
+              "compound": 0.9956,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Love your Content!!!🥰\nyou're a great and nice and wonderful and kind and amazing person🥰🥰🥰\nyou deserved it🫶🫶🫶\nhave a Blessed Sunday 🙏🙏🙏",
+              "compound": 0.9956,
+              "sentiment": "positive"
+            },
+            {
+              "text": "❤❤❤❤❤❤❤❤❤❤😂",
+              "compound": 0.9935,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "One Battle After Another is nothing more than a bloated piece of liberal propaganda masquerading as high art, pushing a dangerous narrative that roman...",
+              "compound": -0.9808,
+              "sentiment": "negative"
+            },
+            {
+              "text": "One Battle After Another is nothing more than a bloated piece of liberal propaganda masquerading as high art, pushing a dangerous narrative that roman...",
+              "compound": -0.9808,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Leo really did it, he really did the impossible...he made a bad movie. No but really I didn't understand this movie, I couldn't understand it. Leo's c...",
+              "compound": -0.9736,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      "reddit": {
+        "stats": {
+          "total": 1450,
+          "positive": 807,
+          "negative": 320,
+          "neutral": 323,
+          "positive_pct": 55.7,
+          "negative_pct": 22.1,
+          "neutral_pct": 22.3,
+          "avg_compound": 0.22
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "Winners:\n\n* Best Picture (Drama) - Hamnet\n* Best Picture (Comedy) - One Battle After Another\n* Best Director - Paul Thomas Anderson (One Battle After ...",
+              "compound": 0.9977,
+              "sentiment": "positive"
+            },
+            {
+              "text": "National Board of Review Winners 2025:\n\n* Best Film: One Battle After Another\n\n* Best Director: Paul Thomas Anderson, One Battle After Another\n\n* Best...",
+              "compound": 0.995,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Yup as a leftist much of the political stuff was just window dressing. It was a very well done father daughter relationship drama with lots of thrille...",
+              "compound": 0.992,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "To say its some specific political message or contribution to old ideas of culture wars is missing the point. It is it is intentionally absurdist/vagu...",
+              "compound": -0.9765,
+              "sentiment": "negative"
+            },
+            {
+              "text": "It's a very exciting, funny and poignant film that really hits hard.\n\nBut when the marketing isn't doing it justice and could unfortunate lose money, ...",
+              "compound": -0.9532,
+              "sentiment": "negative"
+            },
+            {
+              "text": "The title may be overselling it (edit: “it” being the box office success not the Oscar chances) but it’s also 3 hours, without superheroes that can be...",
+              "compound": -0.9477,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      "combined": {
+        "stats": {
+          "total": 2881,
+          "positive": 1518,
+          "negative": 668,
+          "neutral": 695,
+          "positive_pct": 52.7,
+          "negative_pct": 23.2,
+          "neutral_pct": 24.1,
+          "avg_compound": 0.199
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "Winners:\n\n* Best Picture (Drama) - Hamnet\n* Best Picture (Comedy) - One Battle After Another\n* Best Director - Paul Thomas Anderson (One Battle After ...",
+              "compound": 0.9977,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Love your Content!!!🥰\nyou're a great and nice and wonderful and kind and amazing person🥰🥰🥰\nyou deserved it🫶🫶🫶\nhave a Blessed Sunday 🙏🙏🙏",
+              "compound": 0.9956,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Love your Content!!!🥰\nyou're a great and nice and wonderful and kind and amazing person🥰🥰🥰\nyou deserved it🫶🫶🫶\nhave a Blessed Sunday 🙏🙏🙏",
+              "compound": 0.9956,
+              "sentiment": "positive"
+            },
+            {
+              "text": "National Board of Review Winners 2025:\n\n* Best Film: One Battle After Another\n\n* Best Director: Paul Thomas Anderson, One Battle After Another\n\n* Best...",
+              "compound": 0.995,
+              "sentiment": "positive"
+            },
+            {
+              "text": "❤❤❤❤❤❤❤❤❤❤😂",
+              "compound": 0.9935,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "One Battle After Another is nothing more than a bloated piece of liberal propaganda masquerading as high art, pushing a dangerous narrative that roman...",
+              "compound": -0.9808,
+              "sentiment": "negative"
+            },
+            {
+              "text": "One Battle After Another is nothing more than a bloated piece of liberal propaganda masquerading as high art, pushing a dangerous narrative that roman...",
+              "compound": -0.9808,
+              "sentiment": "negative"
+            },
+            {
+              "text": "To say its some specific political message or contribution to old ideas of culture wars is missing the point. It is it is intentionally absurdist/vagu...",
+              "compound": -0.9765,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Leo really did it, he really did the impossible...he made a bad movie. No but really I didn't understand this movie, I couldn't understand it. Leo's c...",
+              "compound": -0.9736,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Leo really did it, he really did the impossible...he made a bad movie. No but really I didn't understand this movie, I couldn't understand it. Leo's c...",
+              "compound": -0.9736,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Sinners",
+      "youtube": {
+        "stats": {
+          "total": 683,
+          "positive": 357,
+          "negative": 115,
+          "neutral": 211,
+          "positive_pct": 52.3,
+          "negative_pct": 16.8,
+          "neutral_pct": 30.9,
+          "avg_compound": 0.241
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "Congratulations to you all! ❤❤❤❤❤ A job well done 🎉🎉🎉🎉😊",
+              "compound": 0.9923,
+              "sentiment": "positive"
+            },
+            {
+              "text": "White chick here who loves movies, but still very picky. I went to see it due to very positive unusual reviews about the music. But the whole movie, s...",
+              "compound": 0.9909,
+              "sentiment": "positive"
+            },
+            {
+              "text": "❤❤❤❤😂😂❤❤",
+              "compound": 0.9861,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "This movie was 🔥🔥🔥🔥🔥🔥🔥🔥",
+              "compound": -0.9451,
+              "sentiment": "negative"
+            },
+            {
+              "text": "❤️‍🔥🔥❤️❤️‍🔥🔥❤️❤️‍🔥🔥❤️❤️‍🔥🔥❤️",
+              "compound": -0.9451,
+              "sentiment": "negative"
+            },
+            {
+              "text": "The devil has a huge attack against the black community. The attack on Christianity is an attack on the black community. To glorify drinking , whoredo...",
+              "compound": -0.9432,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      "reddit": {
+        "stats": {
+          "total": 1422,
+          "positive": 789,
+          "negative": 345,
+          "neutral": 288,
+          "positive_pct": 55.5,
+          "negative_pct": 24.3,
+          "neutral_pct": 20.3,
+          "avg_compound": 0.204
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "Here are some reviews/thoughts I had to cut to fit the maximum character count:\n\n* **The Threesome** - 8/10 - Really really really great stuff. Smart,...",
+              "compound": 0.9993,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Y’all, I’m not gonna bury the lede here. Sinners is a 10/10, it’s the best thing I’ve seen in a long while. It’s everything I want in a movie. It’s su...",
+              "compound": 0.9962,
+              "sentiment": "positive"
+            },
+            {
+              "text": "I just came home from watching Sinners and honestly i was really proud by what he chose to focus on. We didn't get slave porn, or trauma porn. \n\nWe go...",
+              "compound": 0.9929,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "I don’t think violence and brutality was dealt with that intelligently here, and for me that was a major selling point for the series. In 28YL, violen...",
+              "compound": -0.9846,
+              "sentiment": "negative"
+            },
+            {
+              "text": "It's shit and it shows more how audiences are getting dumber and have brain rot. \n\nThe film set up 20 things that led no where. Had a stupid ass villa...",
+              "compound": -0.9793,
+              "sentiment": "negative"
+            },
+            {
+              "text": "They complained about the Coogler deal and they also complained about WB spending \"too much\" in bidding wars in the Vulture article. I fully expect th...",
+              "compound": -0.9783,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      },
+      "combined": {
+        "stats": {
+          "total": 2105,
+          "positive": 1146,
+          "negative": 460,
+          "neutral": 499,
+          "positive_pct": 54.4,
+          "negative_pct": 21.9,
+          "neutral_pct": 23.7,
+          "avg_compound": 0.216
+        },
+        "top_comments": {
+          "positive": [
+            {
+              "text": "Here are some reviews/thoughts I had to cut to fit the maximum character count:\n\n* **The Threesome** - 8/10 - Really really really great stuff. Smart,...",
+              "compound": 0.9993,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Y’all, I’m not gonna bury the lede here. Sinners is a 10/10, it’s the best thing I’ve seen in a long while. It’s everything I want in a movie. It’s su...",
+              "compound": 0.9962,
+              "sentiment": "positive"
+            },
+            {
+              "text": "I just came home from watching Sinners and honestly i was really proud by what he chose to focus on. We didn't get slave porn, or trauma porn. \n\nWe go...",
+              "compound": 0.9929,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Congratulations to you all! ❤❤❤❤❤ A job well done 🎉🎉🎉🎉😊",
+              "compound": 0.9923,
+              "sentiment": "positive"
+            },
+            {
+              "text": "Firstly, respect, secondly, this is awesome. Not sure our tastes align exactly but got some good possible watches from your list which I appreciate!\n\n...",
+              "compound": 0.9913,
+              "sentiment": "positive"
+            }
+          ],
+          "negative": [
+            {
+              "text": "I don’t think violence and brutality was dealt with that intelligently here, and for me that was a major selling point for the series. In 28YL, violen...",
+              "compound": -0.9846,
+              "sentiment": "negative"
+            },
+            {
+              "text": "It's shit and it shows more how audiences are getting dumber and have brain rot. \n\nThe film set up 20 things that led no where. Had a stupid ass villa...",
+              "compound": -0.9793,
+              "sentiment": "negative"
+            },
+            {
+              "text": "They complained about the Coogler deal and they also complained about WB spending \"too much\" in bidding wars in the Vulture article. I fully expect th...",
+              "compound": -0.9783,
+              "sentiment": "negative"
+            },
+            {
+              "text": "Have you seen those apps that are just nothing but short form vertical clips of “Drama?”\n\nThey are effectively Gen Z/Millenual soap operas with storyl...",
+              "compound": -0.9776,
+              "sentiment": "negative"
+            },
+            {
+              "text": "It’s what really ended up bugging me about Gina Carano. She says a bunch of stupid covid stuff and gets fired over it (though she also did some stupid...",
+              "compound": -0.9738,
+              "sentiment": "negative"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
