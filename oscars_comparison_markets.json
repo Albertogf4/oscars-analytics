@@ -1,0 +1,1394 @@
+{
+  "analysis_type": "Oscar Contenders Comparison",
+  "timestamp": "2026-02-14T10:11:56.359224+00:00",
+  "movies_analyzed": [
+    "One Battle After Another",
+    "Sinners",
+    "Hamnet"
+  ],
+  "comparison": [
+    {
+      "movie": "One Battle After Another",
+      "director": "Paul Thomas Anderson",
+      "year": 2025,
+      "total_markets": 26,
+      "markets": [
+        {
+          "ticker": "KXOSCARPROD-26-ONE",
+          "title": "Will One Battle After Another win Best Production Design at the Oscars?",
+          "subtitle": "One Battle After Another",
+          "event_ticker": "KXOSCARPROD-26",
+          "yes_price_cents": 2,
+          "yes_bid_cents": 1,
+          "no_price_cents": 99,
+          "volume": 11038,
+          "volume_24h": 0,
+          "open_interest": 7663,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSCORE-26-ONE",
+          "title": "Will One Battle after Another win Best Music (Original Score) at the Oscars?",
+          "subtitle": "One Battle after Another:: Jonny Greenwood",
+          "event_ticker": "KXOSCARSCORE-26",
+          "yes_price_cents": 8,
+          "yes_bid_cents": 6,
+          "no_price_cents": 94,
+          "volume": 22498,
+          "volume_24h": 272,
+          "open_interest": 18515,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another",
+            "Jonny Greenwood"
+          ]
+        },
+        {
+          "ticker": "KXOSCAREDIT-26-ONE",
+          "title": "Will One Battle After Another win Best Film Editing at the Oscars?",
+          "subtitle": "One Battle After Another:: Andy Jurgensen",
+          "event_ticker": "KXOSCAREDIT-26",
+          "yes_price_cents": 74,
+          "yes_bid_cents": 71,
+          "no_price_cents": 29,
+          "volume": 61046,
+          "volume_24h": 1970,
+          "open_interest": 41758,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another",
+            "Andy Jurgensen"
+          ]
+        },
+        {
+          "ticker": "KXOSCARACTO-26-LEO",
+          "title": "Will Leonardo DiCaprio win Best Actor at the Oscars?",
+          "subtitle": "Leonardo DiCaprio:: One Battle After Another",
+          "event_ticker": "KXOSCARACTO-26",
+          "yes_price_cents": 10,
+          "yes_bid_cents": 9,
+          "no_price_cents": 91,
+          "volume": 894692,
+          "volume_24h": 11522,
+          "open_interest": 631660,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another",
+            "Leonardo DiCaprio",
+            "DiCaprio"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-9",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 1510,
+          "volume_24h": 48,
+          "open_interest": 1456,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-8",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 8,
+          "yes_bid_cents": 7,
+          "no_price_cents": 93,
+          "volume": 2619,
+          "volume_24h": 343,
+          "open_interest": 2317,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-7",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 26,
+          "yes_bid_cents": 25,
+          "no_price_cents": 75,
+          "volume": 5586,
+          "volume_24h": 309,
+          "open_interest": 3483,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-6",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 32,
+          "yes_bid_cents": 28,
+          "no_price_cents": 72,
+          "volume": 4529,
+          "volume_24h": 139,
+          "open_interest": 2807,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-5",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 23,
+          "yes_bid_cents": 20,
+          "no_price_cents": 80,
+          "volume": 3419,
+          "volume_24h": 84,
+          "open_interest": 2385,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-4",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 11,
+          "yes_bid_cents": 7,
+          "no_price_cents": 93,
+          "volume": 3350,
+          "volume_24h": 289,
+          "open_interest": 2751,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-3",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 5,
+          "yes_bid_cents": 1,
+          "no_price_cents": 99,
+          "volume": 2217,
+          "volume_24h": 822,
+          "open_interest": 2157,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-2",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 3,
+          "yes_bid_cents": 2,
+          "no_price_cents": 98,
+          "volume": 920,
+          "volume_24h": 10,
+          "open_interest": 596,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-13",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 0,
+          "volume_24h": 0,
+          "open_interest": 0,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-12",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 70,
+          "volume_24h": 0,
+          "open_interest": 70,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-11",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 50,
+          "volume_24h": 0,
+          "open_interest": 50,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-10",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 392,
+          "volume_24h": 0,
+          "open_interest": 392,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-1",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 2,
+          "yes_bid_cents": 1,
+          "no_price_cents": 99,
+          "volume": 702,
+          "volume_24h": 0,
+          "open_interest": 380,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-ONE-0",
+          "title": "How many awards will One Battle After Another win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-ONE",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 117,
+          "volume_24h": 0,
+          "open_interest": 82,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCINE-26-ONE",
+          "title": "Will One Battle After Another win Best Cinematography at the Oscars?",
+          "subtitle": "One Battle After Another:: Michael Bauman",
+          "event_ticker": "KXOSCARCINE-26",
+          "yes_price_cents": 41,
+          "yes_bid_cents": 40,
+          "no_price_cents": 60,
+          "volume": 242922,
+          "volume_24h": 1768,
+          "open_interest": 175980,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another",
+            "Michael Bauman"
+          ]
+        },
+        {
+          "ticker": "KXOSCARPIC-26-ONE",
+          "title": "Will One Battle After Another win Best Picture at the Oscars?",
+          "subtitle": "One Battle After Another",
+          "event_ticker": "KXOSCARPIC-26",
+          "yes_price_cents": 75,
+          "yes_bid_cents": 74,
+          "no_price_cents": 26,
+          "volume": 1302292,
+          "volume_24h": 34283,
+          "open_interest": 862058,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSUPACTR-26-TEY",
+          "title": "Will Teyana Taylor win Best Supporting Actress at the Oscars?",
+          "subtitle": "Teyana Taylor:: One Battle After Another",
+          "event_ticker": "KXOSCARSUPACTR-26",
+          "yes_price_cents": 70,
+          "yes_bid_cents": 69,
+          "no_price_cents": 31,
+          "volume": 276677,
+          "volume_24h": 2433,
+          "open_interest": 155909,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another",
+            "Teyana Taylor"
+          ]
+        },
+        {
+          "ticker": "KXOSCARDIR-26-PAU",
+          "title": "Will Paul Thomas Anderson win Best Director at the Oscars?",
+          "subtitle": "Paul Thomas Anderson:: One Battle After Another",
+          "event_ticker": "KXOSCARDIR-26",
+          "yes_price_cents": 89,
+          "yes_bid_cents": 88,
+          "no_price_cents": 12,
+          "volume": 266405,
+          "volume_24h": 8402,
+          "open_interest": 197115,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another",
+            "Paul Thomas Anderson"
+          ]
+        },
+        {
+          "ticker": "KXOSCARASPLAY-26-ONE",
+          "title": "Will One Battle After Another win Best Adapted Screenplay at the Oscars?",
+          "subtitle": "One Battle After Another",
+          "event_ticker": "KXOSCARASPLAY-26",
+          "yes_price_cents": 89,
+          "yes_bid_cents": 88,
+          "no_price_cents": 12,
+          "volume": 80801,
+          "volume_24h": 331,
+          "open_interest": 39727,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSUPACTO-26-BEN",
+          "title": "Will Benicio del Toro win Best Supporting Actor at the Oscars?",
+          "subtitle": "Benicio del Toro:: One Battle After Another",
+          "event_ticker": "KXOSCARSUPACTO-26",
+          "yes_price_cents": 8,
+          "yes_bid_cents": 7,
+          "no_price_cents": 93,
+          "volume": 480484,
+          "volume_24h": 7189,
+          "open_interest": 333739,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another",
+            "Benicio Del Toro",
+            "Benicio del Toro",
+            "Del Toro"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSUPACTO-26-SEAN",
+          "title": "Will Sean Penn win Best Supporting Actor at the Oscars?",
+          "subtitle": "Sean Penn:: One Battle After Another",
+          "event_ticker": "KXOSCARSUPACTO-26",
+          "yes_price_cents": 17,
+          "yes_bid_cents": 15,
+          "no_price_cents": 85,
+          "volume": 330072,
+          "volume_24h": 3459,
+          "open_interest": 193032,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another",
+            "Sean Penn"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSOUND-26-ONE",
+          "title": "Will One Battle after Another win Best Sound at the Oscars?",
+          "subtitle": "One Battle after Another",
+          "event_ticker": "KXOSCARSOUND-26",
+          "yes_price_cents": 2,
+          "yes_bid_cents": 1,
+          "no_price_cents": 99,
+          "volume": 10066,
+          "volume_24h": 173,
+          "open_interest": 8332,
+          "status": "active",
+          "matched_keywords": [
+            "One Battle After Another",
+            "Battle After Another"
+          ]
+        }
+      ],
+      "aggregate_metrics": {
+        "total_markets": 26,
+        "avg_yes_price": 23.115384615384617,
+        "total_volume": 4004474,
+        "total_open_interest": 2684414,
+        "categories": [
+          "Supporting Actor",
+          "Supporting Actress",
+          "Screenplay",
+          "Cinematography",
+          "Best Director",
+          "Other",
+          "Best Picture",
+          "Score/Music",
+          "Best Actor"
+        ]
+      }
+    },
+    {
+      "movie": "Sinners",
+      "director": "Ryan Coogler",
+      "year": 2025,
+      "total_markets": 32,
+      "markets": [
+        {
+          "ticker": "KXOSCARVIS-26-SIN",
+          "title": "Will Sinners win Best Visual Effects at the Oscars?",
+          "subtitle": "Sinners",
+          "event_ticker": "KXOSCARVIS-26",
+          "yes_price_cents": 4,
+          "yes_bid_cents": 2,
+          "no_price_cents": 98,
+          "volume": 16452,
+          "volume_24h": 183,
+          "open_interest": 15030,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARPROD-26-SIN",
+          "title": "Will Sinners win Best Production Design at the Oscars?",
+          "subtitle": "Sinners",
+          "event_ticker": "KXOSCARPROD-26",
+          "yes_price_cents": 12,
+          "yes_bid_cents": 11,
+          "no_price_cents": 89,
+          "volume": 20741,
+          "volume_24h": 260,
+          "open_interest": 17788,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSCORE-26-SIN",
+          "title": "Will Sinners win Best Music (Original Score) at the Oscars?",
+          "subtitle": "Sinners:: Ludwig Goransson",
+          "event_ticker": "KXOSCARSCORE-26",
+          "yes_price_cents": 87,
+          "yes_bid_cents": 86,
+          "no_price_cents": 14,
+          "volume": 46454,
+          "volume_24h": 518,
+          "open_interest": 36425,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners",
+            "Ludwig Goransson"
+          ]
+        },
+        {
+          "ticker": "KXOSCAREDIT-26-SIN",
+          "title": "Will Sinners win Best Film Editing at the Oscars?",
+          "subtitle": "Sinners:: Michael P. Shawver",
+          "event_ticker": "KXOSCAREDIT-26",
+          "yes_price_cents": 6,
+          "yes_bid_cents": 5,
+          "no_price_cents": 95,
+          "volume": 49576,
+          "volume_24h": 795,
+          "open_interest": 30266,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSONG-26-LIE",
+          "title": "Will I Lied To You win Best Music (Original Song) at the Oscars?",
+          "subtitle": "I Lied To You:: Sinners",
+          "event_ticker": "KXOSCARSONG-26",
+          "yes_price_cents": 11,
+          "yes_bid_cents": 10,
+          "no_price_cents": 90,
+          "volume": 58184,
+          "volume_24h": 805,
+          "open_interest": 48696,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARACTO-26-MIC",
+          "title": "Will Michael B. Jordan win Best Actor at the Oscars?",
+          "subtitle": "Michael B. Jordan:: Sinners",
+          "event_ticker": "KXOSCARACTO-26",
+          "yes_price_cents": 7,
+          "yes_bid_cents": 6,
+          "no_price_cents": 94,
+          "volume": 1060920,
+          "volume_24h": 21489,
+          "open_interest": 634504,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners",
+            "Michael B. Jordan"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-9",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 2,
+          "yes_bid_cents": 1,
+          "no_price_cents": 99,
+          "volume": 2850,
+          "volume_24h": 304,
+          "open_interest": 2469,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-8",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 2,
+          "yes_bid_cents": 1,
+          "no_price_cents": 99,
+          "volume": 4253,
+          "volume_24h": 15,
+          "open_interest": 4013,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-7",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 4,
+          "yes_bid_cents": 2,
+          "no_price_cents": 98,
+          "volume": 4969,
+          "volume_24h": 163,
+          "open_interest": 4916,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-6",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 5,
+          "yes_bid_cents": 3,
+          "no_price_cents": 97,
+          "volume": 7187,
+          "volume_24h": 1094,
+          "open_interest": 6854,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-5",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 12,
+          "yes_bid_cents": 11,
+          "no_price_cents": 89,
+          "volume": 9618,
+          "volume_24h": 681,
+          "open_interest": 7999,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-4",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 37,
+          "yes_bid_cents": 33,
+          "no_price_cents": 67,
+          "volume": 15311,
+          "volume_24h": 585,
+          "open_interest": 9999,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-3",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 20,
+          "yes_bid_cents": 16,
+          "no_price_cents": 84,
+          "volume": 8882,
+          "volume_24h": 783,
+          "open_interest": 7081,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-2",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 14,
+          "yes_bid_cents": 12,
+          "no_price_cents": 88,
+          "volume": 8616,
+          "volume_24h": 366,
+          "open_interest": 7966,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-16",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 2625,
+          "volume_24h": 0,
+          "open_interest": 2625,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-15",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 102,
+          "volume_24h": 0,
+          "open_interest": 102,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-14",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 1638,
+          "volume_24h": 0,
+          "open_interest": 1638,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-13",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 2062,
+          "volume_24h": 0,
+          "open_interest": 2062,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-12",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 1161,
+          "volume_24h": 0,
+          "open_interest": 1131,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-11",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 3105,
+          "volume_24h": 0,
+          "open_interest": 2858,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-10",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 1541,
+          "volume_24h": 0,
+          "open_interest": 1441,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-1",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 6,
+          "yes_bid_cents": 4,
+          "no_price_cents": 96,
+          "volume": 5273,
+          "volume_24h": 327,
+          "open_interest": 5157,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-0",
+          "title": "How many awards will Sinners win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26",
+          "yes_price_cents": 2,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 7008,
+          "volume_24h": 950,
+          "open_interest": 6962,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCINE-26-SIN",
+          "title": "Will Sinners win Best Cinematography at the Oscars?",
+          "subtitle": "Sinners:: Autumn Durald Arkapaw",
+          "event_ticker": "KXOSCARCINE-26",
+          "yes_price_cents": 48,
+          "yes_bid_cents": 43,
+          "no_price_cents": 57,
+          "volume": 391303,
+          "volume_24h": 10562,
+          "open_interest": 246042,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners",
+            "Autumn Durald"
+          ]
+        },
+        {
+          "ticker": "KXOSCARPIC-26-SIN",
+          "title": "Will Sinners win Best Picture at the Oscars?",
+          "subtitle": "Sinners",
+          "event_ticker": "KXOSCARPIC-26",
+          "yes_price_cents": 15,
+          "yes_bid_cents": 14,
+          "no_price_cents": 86,
+          "volume": 1752272,
+          "volume_24h": 27214,
+          "open_interest": 999699,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSUPACTR-26-WUN",
+          "title": "Will Wunmi Mosaku win Best Supporting Actress at the Oscars?",
+          "subtitle": "Wunmi Mosaku:: Sinners",
+          "event_ticker": "KXOSCARSUPACTR-26",
+          "yes_price_cents": 3,
+          "yes_bid_cents": 2,
+          "no_price_cents": 98,
+          "volume": 146323,
+          "volume_24h": 3108,
+          "open_interest": 117211,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners",
+            "Wunmi Mosaku"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSPLAY-26-SIN",
+          "title": "Will Sinners win Best Original Screenplay at the Oscars?",
+          "subtitle": "Sinners",
+          "event_ticker": "KXOSCARSPLAY-26",
+          "yes_price_cents": 81,
+          "yes_bid_cents": 80,
+          "no_price_cents": 20,
+          "volume": 100676,
+          "volume_24h": 836,
+          "open_interest": 60525,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARDIR-26-RYA",
+          "title": "Will Ryan Coogler win Best Director at the Oscars?",
+          "subtitle": "Ryan Coogler:: Sinners",
+          "event_ticker": "KXOSCARDIR-26",
+          "yes_price_cents": 10,
+          "yes_bid_cents": 8,
+          "no_price_cents": 92,
+          "volume": 400109,
+          "volume_24h": 12983,
+          "open_interest": 283640,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners",
+            "Ryan Coogler",
+            "Coogler"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOSTUME-26-SIN",
+          "title": "Will Sinners win Best Costume Design at the Oscars?",
+          "subtitle": "Sinners:: Ruth E. Carter",
+          "event_ticker": "KXOSCARCOSTUME-26",
+          "yes_price_cents": 11,
+          "yes_bid_cents": 8,
+          "no_price_cents": 92,
+          "volume": 26425,
+          "volume_24h": 203,
+          "open_interest": 20953,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners",
+            "Ruth E. Carter"
+          ]
+        },
+        {
+          "ticker": "KXOSCARMAH-26-SIN",
+          "title": "Will Sinners win Best Makeup and Hairstyling at the Oscars?",
+          "subtitle": "Sinners:: Ken Diaz, Mike Fontaine and Shunika Terry",
+          "event_ticker": "KXOSCARMAH-26",
+          "yes_price_cents": 7,
+          "yes_bid_cents": 3,
+          "no_price_cents": 97,
+          "volume": 16824,
+          "volume_24h": 329,
+          "open_interest": 14683,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSUPACTO-26-DEL",
+          "title": "Will Delroy Lindo win Best Supporting Actor at the Oscars?",
+          "subtitle": "Delroy Lindo:: Sinners",
+          "event_ticker": "KXOSCARSUPACTO-26",
+          "yes_price_cents": 3,
+          "yes_bid_cents": 2,
+          "no_price_cents": 98,
+          "volume": 230750,
+          "volume_24h": 6604,
+          "open_interest": 180831,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners",
+            "Delroy Lindo"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSOUND-26-SIN",
+          "title": "Will Sinners win Best Sound at the Oscars?",
+          "subtitle": "Sinners",
+          "event_ticker": "KXOSCARSOUND-26",
+          "yes_price_cents": 14,
+          "yes_bid_cents": 12,
+          "no_price_cents": 88,
+          "volume": 23290,
+          "volume_24h": 146,
+          "open_interest": 17642,
+          "status": "active",
+          "matched_keywords": [
+            "Sinners"
+          ]
+        }
+      ],
+      "aggregate_metrics": {
+        "total_markets": 32,
+        "avg_yes_price": 13.4375,
+        "total_volume": 4426500,
+        "total_open_interest": 2799208,
+        "categories": [
+          "Supporting Actor",
+          "Supporting Actress",
+          "Screenplay",
+          "Cinematography",
+          "Best Director",
+          "Other",
+          "Best Picture",
+          "Score/Music",
+          "Best Actor"
+        ]
+      }
+    },
+    {
+      "movie": "Hamnet",
+      "director": "Chloé Zhao",
+      "year": 2025,
+      "total_markets": 16,
+      "markets": [
+        {
+          "ticker": "KXOSCARACTR-26-JES",
+          "title": "Will Jessie Buckley win Best Actress at the Oscars?",
+          "subtitle": "Jessie Buckley:: Hamnet",
+          "event_ticker": "KXOSCARACTR-26",
+          "yes_price_cents": 90,
+          "yes_bid_cents": 89,
+          "no_price_cents": 11,
+          "volume": 255381,
+          "volume_24h": 1572,
+          "open_interest": 188223,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet",
+            "Jessie Buckley",
+            "Buckley"
+          ]
+        },
+        {
+          "ticker": "KXOSCARPROD-26-HAM",
+          "title": "Will Hamnet win Best Production Design at the Oscars?",
+          "subtitle": "Hamnet",
+          "event_ticker": "KXOSCARPROD-26",
+          "yes_price_cents": 2,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 11185,
+          "volume_24h": 0,
+          "open_interest": 9762,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARSCORE-26-HAM",
+          "title": "Will Hamnet win Best Music (Original Score) at the Oscars?",
+          "subtitle": "Hamnet:: Max Richter",
+          "event_ticker": "KXOSCARSCORE-26",
+          "yes_price_cents": 2,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 13961,
+          "volume_24h": 0,
+          "open_interest": 13960,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-HAM-8",
+          "title": "How many awards will Hamnet win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-HAM",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 200,
+          "volume_24h": 0,
+          "open_interest": 200,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-HAM-7",
+          "title": "How many awards will Hamnet win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-HAM",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 200,
+          "volume_24h": 0,
+          "open_interest": 200,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-HAM-6",
+          "title": "How many awards will Hamnet win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-HAM",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 215,
+          "volume_24h": 0,
+          "open_interest": 215,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-HAM-5",
+          "title": "How many awards will Hamnet win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-HAM",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 245,
+          "volume_24h": 0,
+          "open_interest": 245,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-HAM-4",
+          "title": "How many awards will Hamnet win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-HAM",
+          "yes_price_cents": 1,
+          "yes_bid_cents": 0,
+          "no_price_cents": 100,
+          "volume": 704,
+          "volume_24h": 389,
+          "open_interest": 704,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-HAM-3",
+          "title": "How many awards will Hamnet win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-HAM",
+          "yes_price_cents": 3,
+          "yes_bid_cents": 1,
+          "no_price_cents": 99,
+          "volume": 998,
+          "volume_24h": 305,
+          "open_interest": 826,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-HAM-2",
+          "title": "How many awards will Hamnet win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-HAM",
+          "yes_price_cents": 9,
+          "yes_bid_cents": 7,
+          "no_price_cents": 93,
+          "volume": 1523,
+          "volume_24h": 674,
+          "open_interest": 1523,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-HAM-1",
+          "title": "How many awards will Hamnet win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-HAM",
+          "yes_price_cents": 87,
+          "yes_bid_cents": 82,
+          "no_price_cents": 18,
+          "volume": 5057,
+          "volume_24h": 251,
+          "open_interest": 3116,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOUNT-26-HAM-0",
+          "title": "How many awards will Hamnet win at the Oscars?",
+          "subtitle": "",
+          "event_ticker": "KXOSCARCOUNT-26-HAM",
+          "yes_price_cents": 4,
+          "yes_bid_cents": 3,
+          "no_price_cents": 97,
+          "volume": 649,
+          "volume_24h": 333,
+          "open_interest": 478,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARPIC-26-HAM",
+          "title": "Will Hamnet win Best Picture at the Oscars?",
+          "subtitle": "Hamnet",
+          "event_ticker": "KXOSCARPIC-26",
+          "yes_price_cents": 8,
+          "yes_bid_cents": 7,
+          "no_price_cents": 93,
+          "volume": 1521011,
+          "volume_24h": 24839,
+          "open_interest": 1115742,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARDIR-26-CHL",
+          "title": "Will Chloe Zhao win Best Director at the Oscars?",
+          "subtitle": "Chloe Zhao:: Hamnet",
+          "event_ticker": "KXOSCARDIR-26",
+          "yes_price_cents": 2,
+          "yes_bid_cents": 1,
+          "no_price_cents": 99,
+          "volume": 306752,
+          "volume_24h": 3874,
+          "open_interest": 246528,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet",
+            "Chloe Zhao",
+            "Zhao"
+          ]
+        },
+        {
+          "ticker": "KXOSCARASPLAY-26-HAM",
+          "title": "Will Hamnet win Best Adapted Screenplay at the Oscars?",
+          "subtitle": "Hamnet",
+          "event_ticker": "KXOSCARASPLAY-26",
+          "yes_price_cents": 8,
+          "yes_bid_cents": 6,
+          "no_price_cents": 94,
+          "volume": 51211,
+          "volume_24h": 206,
+          "open_interest": 40672,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        },
+        {
+          "ticker": "KXOSCARCOSTUME-26-HAM",
+          "title": "Will Hamnet win Best Costume Design at the Oscars?",
+          "subtitle": "Hamnet:: Malgosia Turzanska",
+          "event_ticker": "KXOSCARCOSTUME-26",
+          "yes_price_cents": 2,
+          "yes_bid_cents": 1,
+          "no_price_cents": 99,
+          "volume": 18145,
+          "volume_24h": 1,
+          "open_interest": 15380,
+          "status": "active",
+          "matched_keywords": [
+            "Hamnet"
+          ]
+        }
+      ],
+      "aggregate_metrics": {
+        "total_markets": 16,
+        "avg_yes_price": 13.875,
+        "total_volume": 2187437,
+        "total_open_interest": 1637774,
+        "categories": [
+          "Screenplay",
+          "Best Director",
+          "Other",
+          "Best Picture",
+          "Score/Music",
+          "Best Actress"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "total_oscar_series": 72,
+    "total_markets_scanned": 208,
+    "oscar_series": [
+      "KXOSCARACTR",
+      "KXOSCARLAS",
+      "OSCARNOMACTR",
+      "OSCARNOMPIC",
+      "KXOSCARANIMATED",
+      "KXOSCARDOCU",
+      "KXOSCARGUESTS",
+      "KXOSCARVIS",
+      "KXOSCARNOMSUPACTR",
+      "KXOSCARDS",
+      "KXOSCARCOUNTDUNE2",
+      "KXOSCARNOMSBANIMATEDF",
+      "KXOSCARPROD",
+      "OSCARSOUND",
+      "KXOSCARAS",
+      "KXOSCARNOMACTR",
+      "KXOSCARSCORE",
+      "OSCARACTO",
+      "OSCARANIMATED",
+      "KXOSCARWIN",
+      "KXOSCARNOMACTO",
+      "KXOSCARNOMINEESPIC",
+      "OSCARNOMSUPACTO",
+      "KXOSCAREDIT",
+      "OSCARSPLAY",
+      "KXOSCARSONG",
+      "OSCARCOUNTOPPENHEIMER",
+      "KXOSCARDEI",
+      "KXOSCARCOUNTSUBSTANCE",
+      "OSCARCOUNTBARBIE",
+      "KXOSCARCOUNTACU",
+      "KXOSCARNOMDIR",
+      "OSCARSUPACTO",
+      "KXOSCARCOUNTBARBIE",
+      "KXOSCARCOUNTCONCLAVE",
+      "KXOSCARACTO",
+      "OSCARPIC",
+      "OSCARACTR",
+      "OSCARNOMACTO",
+      "KXOSCARCOUNTANORA",
+      "KXOSCARMENTION",
+      "KXOSCARCOUNT",
+      "KXOSCARWINNERS",
+      "KXOSCARCINE",
+      "KXOSCARNOMDOCU",
+      "KXOSCARNOMSUPACTO",
+      "KXOSCARNOMBCASTING",
+      "KXOSCARPIC",
+      "KXOSCARNOMBSOUND",
+      "KXOSCARSUPACTR",
+      "KXOSCARSVIEWER",
+      "OSCARCOSTUME",
+      "KXOSCARSPLAY",
+      "OSCARCOUNTDUNE2",
+      "OSCARDIR",
+      "OSCARSONG",
+      "KXOSCARDIR",
+      "OSCARPROD",
+      "OSCARVIS",
+      "KXOSCARASPLAY",
+      "KXOSCARCOUNTBRUTALIST",
+      "KXOSCARCOSTUME",
+      "KXOSCARINTLFILM",
+      "KXOSCARMAH",
+      "KXOSCARSUPACTO",
+      "OSCARSUPACTR",
+      "OSCARASPLAY",
+      "KXOSCARCOUNTEMILIAPEREZ",
+      "KXOSCARSOUND",
+      "KXOSCARCOUNTOPPENHEIMER",
+      "KXOSCARCOUNTWICKED",
+      "KXOSCARNOMPIC"
+    ]
+  }
+}

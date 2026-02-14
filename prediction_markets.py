@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Kalshi Oscar Markets Analyzer for "One Battle After Another"
+Kalshi Oscar Markets Analyzer - Multi-Movie Comparison
 
 This script searches Kalshi prediction markets for Oscar-related series,
-identifies markets related to the movie "One Battle After Another" (2025),
-and outputs a JSON file with matched markets, prices, and volumes.
+identifies markets related to top Oscar contenders (2025),
+and outputs a JSON file with matched markets, prices, and volumes for comparison.
 """
 
 import requests
@@ -16,9 +16,12 @@ from datetime import datetime, timezone
 # Kalshi API Configuration
 BASE_URL = "https://api.elections.kalshi.com/trade-api/v2"
 
-# Enriched keywords for "One Battle After Another" (2025)
-# Based on web research about the film
-KEYWORDS = [
+# =============================================================================
+# MOVIE KEYWORD CONFIGURATIONS
+# =============================================================================
+
+# Keywords for "One Battle After Another" (2025)
+OBAA_KEYWORDS = [
     # Movie Title Variations
     "One Battle After Another",
     "Battle After Another",
@@ -56,6 +59,83 @@ KEYWORDS = [
     "Vineland",
     "Thomas Pynchon",
 ]
+
+# Keywords for "Sinners" (2025) - Ryan Coogler vampire film
+SINNERS_KEYWORDS = [
+    # Movie Title Variations
+    "Sinners",
+
+    # Director & Screenplay
+    "Ryan Coogler",
+    "Coogler",
+
+    # Lead Cast
+    "Michael B. Jordan",
+    "Michael B Jordan",
+    "Michael Jordan",
+
+    # Supporting Cast
+    "Hailee Steinfeld",
+    "Jack O'Connell",
+    "Wunmi Mosaku",
+    "Delroy Lindo",
+    "Omar Benson Miller",
+    "Jayme Lawson",
+
+    # Key Crew (potential Oscar categories)
+    "Ludwig Göransson",    # Composer - Original Score
+    "Ludwig Goransson",
+    "Autumn Durald",       # Cinematographer
+    "Hannah Beachler",     # Production Designer
+    "Ruth E. Carter",      # Costume Designer
+]
+
+# Keywords for "Hamnet" (2025) - Chloé Zhao Shakespeare drama
+HAMNET_KEYWORDS = [
+    # Movie Title Variations
+    "Hamnet",
+
+    # Director & Screenplay
+    "Chloé Zhao",
+    "Chloe Zhao",
+    "Zhao",
+
+    # Lead Cast
+    "Paul Mescal",
+    "Mescal",
+    "Jessie Buckley",
+    "Buckley",
+
+    # Supporting Cast
+    "Emily Watson",
+    "Joe Alwyn",
+
+    # Key Crew (potential Oscar categories)
+    "Joshua James Richards",  # Cinematographer (frequent Zhao collaborator)
+
+    # Source Material
+    "Maggie O'Farrell",       # Novel author
+    "O'Farrell",
+]
+
+# All movies to analyze
+MOVIES = {
+    "One Battle After Another": {
+        "keywords": OBAA_KEYWORDS,
+        "year": 2025,
+        "director": "Paul Thomas Anderson",
+    },
+    "Sinners": {
+        "keywords": SINNERS_KEYWORDS,
+        "year": 2025,
+        "director": "Ryan Coogler",
+    },
+    "Hamnet": {
+        "keywords": HAMNET_KEYWORDS,
+        "year": 2025,
+        "director": "Chloé Zhao",
+    },
+}
 
 
 def fetch_all_series():
@@ -181,10 +261,10 @@ def filter_markets_by_keywords(markets, keywords):
 
 
 def main():
-    """Main pipeline to fetch and filter Oscar markets for OBAA."""
+    """Main pipeline to fetch and filter Oscar markets for multiple movies."""
     print("=" * 60)
-    print("Kalshi Oscar Markets Analyzer")
-    print("Movie: One Battle After Another (2025)")
+    print("Kalshi Oscar Markets Analyzer - Multi-Movie Comparison")
+    print("Comparing: One Battle After Another, Sinners, Hamnet")
     print("=" * 60)
     print()
 
@@ -222,62 +302,158 @@ def main():
     print(f"\nTotal markets across all Oscar series: {len(all_markets)}")
     print()
 
-    # Step 3: Filter markets matching OBAA keywords
-    print("Step 3: Filtering markets for 'One Battle After Another'...")
-    matched_markets = filter_markets_by_keywords(all_markets, KEYWORDS)
+    # Step 3: Filter markets for each movie
+    print("Step 3: Filtering markets for each movie...")
+    movies_results = {}
 
-    print(f"Found {len(matched_markets)} markets matching OBAA keywords")
+    for movie_name, movie_info in MOVIES.items():
+        matched = filter_markets_by_keywords(all_markets, movie_info["keywords"])
+        movies_results[movie_name] = {
+            "markets": matched,
+            "director": movie_info["director"],
+            "year": movie_info["year"],
+            "keywords": movie_info["keywords"],
+        }
+        print(f"  {movie_name}: {len(matched)} markets found")
+
     print()
 
-    # Step 4: Prepare output
+    # Step 4: Build comparison data
+    comparison = []
+    for movie_name, result in movies_results.items():
+        movie_data = {
+            "movie": movie_name,
+            "director": result["director"],
+            "year": result["year"],
+            "total_markets": len(result["markets"]),
+            "markets": result["markets"],
+            "aggregate_metrics": calculate_aggregate_metrics(result["markets"]),
+        }
+        comparison.append(movie_data)
+
+    # Step 5: Prepare output
     output = {
-        "movie": "One Battle After Another",
-        "year": 2025,
+        "analysis_type": "Oscar Contenders Comparison",
         "timestamp": datetime.now(timezone.utc).isoformat(),
-        "keywords_used": KEYWORDS,
-        "markets": matched_markets,
+        "movies_analyzed": list(MOVIES.keys()),
+        "comparison": comparison,
         "summary": {
             "total_oscar_series": len(oscar_series),
             "total_markets_scanned": len(all_markets),
-            "total_markets_matched": len(matched_markets),
             "oscar_series": [s["ticker"] for s in oscar_series],
         }
     }
 
-    # Step 5: Save to JSON
-    output_file = "oscars_obaa_markets.json"
+    # Step 6: Save to JSON
+    output_file = "oscars_comparison_markets.json"
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     print(f"Results saved to: {output_file}")
     print()
 
-    # Step 6: Print summary
+    # Step 7: Print comparison summary
     print("=" * 60)
-    print("MATCHED MARKETS SUMMARY")
+    print("COMPARISON SUMMARY")
     print("=" * 60)
 
-    if matched_markets:
-        for market in matched_markets:
-            print(f"\nMarket: {market['ticker']}")
-            print(f"  Title: {market['title']}")
-            if market.get('subtitle'):
-                print(f"  Subtitle: {market['subtitle']}")
-            print(f"  Yes Price: {market['yes_price_cents']}¢")
-            print(f"  Volume: {market['volume']:,}")
-            print(f"  Status: {market['status']}")
-            print(f"  Matched Keywords: {', '.join(market['matched_keywords'])}")
-    else:
-        print("\nNo markets found matching 'One Battle After Another' keywords.")
-        print("This could mean:")
-        print("  - The movie is listed under a different name")
-        print("  - Markets haven't been created yet")
-        print("  - Keywords need adjustment")
+    for movie_data in comparison:
+        print(f"\n{'─' * 50}")
+        print(f"📽️  {movie_data['movie']} ({movie_data['year']})")
+        print(f"    Director: {movie_data['director']}")
+        print(f"    Markets Found: {movie_data['total_markets']}")
+
+        metrics = movie_data["aggregate_metrics"]
+        if metrics["total_markets"] > 0:
+            print(f"    Avg Yes Price: {metrics['avg_yes_price']:.1f}¢")
+            print(f"    Total Volume: {metrics['total_volume']:,}")
+            print(f"    Total Open Interest: {metrics['total_open_interest']:,}")
+            print(f"    Categories: {', '.join(metrics['categories'])}")
+
+        if movie_data["markets"]:
+            print(f"\n    Top Markets:")
+            # Sort by volume and show top 3
+            sorted_markets = sorted(
+                movie_data["markets"],
+                key=lambda x: x.get("volume", 0) or 0,
+                reverse=True
+            )[:3]
+            for market in sorted_markets:
+                price = market.get('yes_price_cents') or 'N/A'
+                volume = market.get('volume') or 0
+                print(f"      • {market['title']}")
+                print(f"        Price: {price}¢ | Volume: {volume:,}")
+
+    # Step 8: Print head-to-head comparison
+    print()
+    print("=" * 60)
+    print("HEAD-TO-HEAD METRICS")
+    print("=" * 60)
+    print()
+    print(f"{'Movie':<30} {'Markets':<10} {'Avg Price':<12} {'Total Vol':<15}")
+    print("-" * 67)
+
+    for movie_data in sorted(comparison, key=lambda x: x["aggregate_metrics"]["avg_yes_price"], reverse=True):
+        metrics = movie_data["aggregate_metrics"]
+        name = movie_data["movie"][:28]
+        markets = movie_data["total_markets"]
+        avg_price = f"{metrics['avg_yes_price']:.1f}¢" if metrics["total_markets"] > 0 else "N/A"
+        total_vol = f"{metrics['total_volume']:,}" if metrics["total_markets"] > 0 else "N/A"
+        print(f"{name:<30} {markets:<10} {avg_price:<12} {total_vol:<15}")
 
     print()
     print("=" * 60)
     print("DONE")
     print("=" * 60)
+
+
+def calculate_aggregate_metrics(markets):
+    """Calculate aggregate metrics for a movie's markets."""
+    if not markets:
+        return {
+            "total_markets": 0,
+            "avg_yes_price": 0,
+            "total_volume": 0,
+            "total_open_interest": 0,
+            "categories": [],
+        }
+
+    yes_prices = [m.get("yes_price_cents") for m in markets if m.get("yes_price_cents")]
+    volumes = [m.get("volume", 0) or 0 for m in markets]
+    open_interests = [m.get("open_interest", 0) or 0 for m in markets]
+
+    # Extract category from market titles (e.g., "Best Picture", "Best Director")
+    categories = set()
+    for m in markets:
+        title = m.get("title", "")
+        if "Best Picture" in title:
+            categories.add("Best Picture")
+        elif "Best Director" in title:
+            categories.add("Best Director")
+        elif "Best Actor" in title:
+            categories.add("Best Actor")
+        elif "Best Actress" in title:
+            categories.add("Best Actress")
+        elif "Supporting Actor" in title:
+            categories.add("Supporting Actor")
+        elif "Supporting Actress" in title:
+            categories.add("Supporting Actress")
+        elif "Screenplay" in title:
+            categories.add("Screenplay")
+        elif "Score" in title or "Music" in title:
+            categories.add("Score/Music")
+        elif "Cinematography" in title:
+            categories.add("Cinematography")
+        else:
+            categories.add("Other")
+
+    return {
+        "total_markets": len(markets),
+        "avg_yes_price": sum(yes_prices) / len(yes_prices) if yes_prices else 0,
+        "total_volume": sum(volumes),
+        "total_open_interest": sum(open_interests),
+        "categories": list(categories),
+    }
 
 
 if __name__ == "__main__":
