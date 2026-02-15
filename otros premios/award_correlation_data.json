@@ -1,0 +1,157 @@
+{
+  "summary": {
+    "gg_to_oscar": {
+      "total_winners": 140,
+      "also_won_oscar": 45,
+      "rate": 32.1,
+      "chi2": 35.93,
+      "p_value": 0.0,
+      "phi": 0.363,
+      "odds_ratio": 6.8
+    },
+    "bafta_to_oscar": {
+      "total_winners": 56,
+      "also_won_oscar": 12,
+      "rate": 21.4,
+      "chi2": 6.03,
+      "p_value": 0.014048,
+      "phi": 0.149,
+      "odds_ratio": 3.1
+    }
+  },
+  "scenarios": {
+    "Won neither BAFTA nor GG": {
+      "n": 182,
+      "wins": 14,
+      "rate": 7.7
+    },
+    "Won GG only": {
+      "n": 65,
+      "wins": 27,
+      "rate": 41.5
+    },
+    "Won BAFTA only": {
+      "n": 15,
+      "wins": 5,
+      "rate": 33.3
+    },
+    "Won both BAFTA and GG": {
+      "n": 11,
+      "wins": 5,
+      "rate": 45.5
+    }
+  },
+  "decades": [
+    {
+      "decade": "1950s",
+      "gg_winners": 10,
+      "gg_to_oscar_rate": 60.0,
+      "bafta_winners": 1,
+      "bafta_to_oscar_rate": 100.0,
+      "both_winners": 1,
+      "both_to_oscar_rate": 100.0
+    },
+    {
+      "decade": "1960s",
+      "gg_winners": 14,
+      "gg_to_oscar_rate": 50.0,
+      "bafta_winners": 7,
+      "bafta_to_oscar_rate": 57.1,
+      "both_winners": 2,
+      "both_to_oscar_rate": 100.0
+    },
+    {
+      "decade": "1970s",
+      "gg_winners": 17,
+      "gg_to_oscar_rate": 29.4,
+      "bafta_winners": 2,
+      "bafta_to_oscar_rate": 50.0,
+      "both_winners": 1,
+      "both_to_oscar_rate": 0.0
+    },
+    {
+      "decade": "1980s",
+      "gg_winners": 16,
+      "gg_to_oscar_rate": 50.0,
+      "bafta_winners": 6,
+      "bafta_to_oscar_rate": 33.3,
+      "both_winners": 0,
+      "both_to_oscar_rate": 0
+    },
+    {
+      "decade": "1990s",
+      "gg_winners": 8,
+      "gg_to_oscar_rate": 37.5,
+      "bafta_winners": 4,
+      "bafta_to_oscar_rate": 25.0,
+      "both_winners": 2,
+      "both_to_oscar_rate": 50.0
+    },
+    {
+      "decade": "2000s",
+      "gg_winners": 1,
+      "gg_to_oscar_rate": 100.0,
+      "bafta_winners": 1,
+      "bafta_to_oscar_rate": 100.0,
+      "both_winners": 1,
+      "both_to_oscar_rate": 100.0
+    },
+    {
+      "decade": "2010s",
+      "gg_winners": 10,
+      "gg_to_oscar_rate": 20.0,
+      "bafta_winners": 5,
+      "bafta_to_oscar_rate": 0.0,
+      "both_winners": 4,
+      "both_to_oscar_rate": 0.0
+    }
+  ],
+  "recent_winners": [
+    {
+      "year": 2000,
+      "film": "Gladiator",
+      "won_gg": true,
+      "won_bafta": true
+    },
+    {
+      "year": 2015,
+      "film": "Spotlight",
+      "won_gg": false,
+      "won_bafta": false
+    },
+    {
+      "year": 2016,
+      "film": "Moonlight",
+      "won_gg": true,
+      "won_bafta": false
+    },
+    {
+      "year": 2017,
+      "film": "The Shape of Water",
+      "won_gg": false,
+      "won_bafta": false
+    },
+    {
+      "year": 2018,
+      "film": "Green Book",
+      "won_gg": true,
+      "won_bafta": false
+    },
+    {
+      "year": 2019,
+      "film": "Parasite",
+      "won_gg": false,
+      "won_bafta": false
+    }
+  ],
+  "gg_drama_rate": {
+    "total": 73,
+    "won_oscar": 35,
+    "rate": 47.9
+  },
+  "gg_comedy_rate": {
+    "total": 67,
+    "won_oscar": 10,
+    "rate": 14.9
+  }
+}

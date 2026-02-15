@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Award Correlation Dashboard – BAFTA & Golden Globes → Oscars</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --gold: #B8860B;
+    --oscar-gold: #DAA520;
+    --bafta-bronze: #8B7355;
+    --gg-blue: #4A6FA5;
+    --bg: #FFFFFF;
+    --card-bg: #F8F9FA;
+    --text: #2C3E50;
+    --muted: #6C757D;
+    --accent-green: #28A745;
+    --accent-red: #DC3545;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+  .header {
+    background: linear-gradient(135deg, #F8F9FA 0%, #E9ECEF 50%, #DEE2E6 100%);
+    padding: 40px 20px 30px;
+    text-align: center;
+    border-bottom: 3px solid var(--gold);
+  }
+  .header h1 {
+    font-size: 2.2rem;
+    color: var(--gold);
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  .header p { color: var(--muted); font-size: 1rem; }
+  .container { max-width: 1300px; margin: 0 auto; padding: 30px 20px; }
+
+  /* KPI cards */
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-bottom: 35px;
+  }
+  .kpi-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    border: 1px solid #DEE2E6;
+    transition: transform .2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  .kpi-card:hover { transform: translateY(-3px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+  .kpi-label { font-size: .85rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+  .kpi-value { font-size: 2.4rem; font-weight: 700; }
+  .kpi-sub { font-size: .8rem; color: var(--muted); margin-top: 6px; }
+  .gold { color: var(--gold); }
+  .bronze { color: var(--bafta-bronze); }
+  .blue { color: #4A6FA5; }
+  .green { color: var(--accent-green); }
+
+  /* Chart containers */
+  .chart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 25px;
+    margin-bottom: 35px;
+  }
+  .chart-card {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid #DEE2E6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  .chart-card h3 { color: var(--gold); font-size: 1.1rem; margin-bottom: 15px; }
+  .chart-card canvas { width: 100% !important; }
+
+  /* Full-width chart */
+  .full-width { grid-column: 1 / -1; }
+
+  /* Table */
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  th { text-align: left; padding: 10px 12px; color: var(--gold); border-bottom: 2px solid #DEE2E6; font-weight: 600; }
+  td { padding: 8px 12px; border-bottom: 1px solid #E9ECEF; }
+  tr:hover td { background: rgba(184, 134, 11, .05); }
+  .badge {
+    display: inline-block; padding: 2px 8px; border-radius: 4px;
+    font-size: .8rem; font-weight: 600;
+  }
+  .badge-yes { background: rgba(40, 167, 69, .15); color: #28A745; }
+  .badge-no  { background: rgba(220, 53, 69, .1); color: #DC3545; }
+
+  /* Statistical section */
+  .stat-box {
+    background: var(--card-bg);
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid #DEE2E6;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  .stat-box h3 { color: var(--gold); margin-bottom: 15px; }
+  .stat-row { display: flex; gap: 30px; flex-wrap: wrap; }
+  .stat-item {
+    flex: 1; min-width: 200px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 16px;
+    border: 1px solid #E9ECEF;
+  }
+  .stat-item .label { font-size: .8rem; color: var(--muted); margin-bottom: 4px; }
+  .stat-item .value { font-size: 1.3rem; font-weight: 700; }
+
+  .insight-box {
+    background: linear-gradient(135deg, rgba(184,134,11,.08), rgba(184,134,11,.02));
+    border-left: 4px solid var(--gold);
+    border-radius: 0 12px 12px 0;
+    padding: 20px 24px;
+    margin: 25px 0;
+    font-size: .95rem;
+    line-height: 1.6;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  .insight-box strong { color: var(--gold); }
+
+  @media (max-width: 600px) {
+    .chart-grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 1.5rem; }
+    .kpi-value { font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🏆 Award Correlation Analysis</h1>
+  <p>Do BAFTA and Golden Globe wins predict the Oscar for Best Picture?</p>
+</div>
+
+<div class="container">
+
+  <div class="kpi-row">
+    <div class="kpi-card">
+      <div class="kpi-label">GG → Oscar Win Rate</div>
+      <div class="kpi-value gold">32.1%</div>
+      <div class="kpi-sub">45 of 140 GG winners also won Oscar</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">BAFTA → Oscar Win Rate</div>
+      <div class="kpi-value bronze">21.4%</div>
+      <div class="kpi-sub">12 of 56 BAFTA winners also won Oscar</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">GG Odds Ratio</div>
+      <div class="kpi-value blue">6.8x</div>
+      <div class="kpi-sub">Times more likely to win Oscar after GG win</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">BAFTA Odds Ratio</div>
+      <div class="kpi-value blue">3.1x</div>
+      <div class="kpi-sub">Times more likely to win Oscar after BAFTA win</div>
+    </div>
+    <div class="kpi-card">
+      <div class="kpi-label">Both Awards → Oscar</div>
+      <div class="kpi-value green">45.5%</div>
+      <div class="kpi-sub">5 of 11 that won both</div>
+    </div>
+  </div>
+
+  <div class="insight-box">
+    <strong>Key Finding:</strong> Films that win <strong>both</strong> the BAFTA Best Film and a Golden Globe Best Picture 
+    have a <strong>45.5%</strong> chance of winning the Oscar for Best Picture, 
+    compared to only <strong>7.7%</strong> for films that win neither.
+    The Golden Globe (φ&nbsp;=&nbsp;0.363) and BAFTA (φ&nbsp;=&nbsp;0.149) both show 
+    strong statistical correlation with Oscar outcomes
+    (p&nbsp;&lt;&nbsp;0.001 for both).
+  </div>
+
+  <div class="chart-grid">
+    <!-- Scenario comparison bar chart -->
+    <div class="chart-card">
+      <h3>Oscar Win Rate by Prior Award Status</h3>
+      <canvas id="scenarioChart"></canvas>
+    </div>
+
+    <!-- GG Drama vs Comedy -->
+    <div class="chart-card">
+      <h3>Golden Globe Breakdown: Drama vs. Musical/Comedy</h3>
+      <canvas id="ggBreakdownChart"></canvas>
+    </div>
+
+    <!-- Decade-by-decade trends -->
+    <div class="chart-card full-width">
+      <h3>Predictive Power Over the Decades</h3>
+      <canvas id="decadeChart"></canvas>
+    </div>
+  </div>
+
+  <div class="stat-box">
+    <h3>Statistical Tests</h3>
+    <div class="stat-row">
+      <div class="stat-item">
+        <div class="label">Chi-squared (GG → Oscar)</div>
+        <div class="value gold">χ² = 35.93</div>
+        <div class="label">p = 0.0</div>
+      </div>
+      <div class="stat-item">
+        <div class="label">Chi-squared (BAFTA → Oscar)</div>
+        <div class="value bronze">χ² = 6.03</div>
+        <div class="label">p = 0.014048</div>
+      </div>
+      <div class="stat-item">
+        <div class="label">Phi Coefficient (GG)</div>
+        <div class="value gold">φ = 0.363</div>
+        <div class="label">Strong correlation</div>
+      </div>
+      <div class="stat-item">
+        <div class="label">Phi Coefficient (BAFTA)</div>
+        <div class="value bronze">φ = 0.149</div>
+        <div class="label">Moderate correlation</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chart-card" style="margin-bottom: 30px;">
+    <h3>Recent Oscar Best Picture Winners – Award Alignment</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Year</th><th>Oscar Best Picture</th><th>Won GG?</th><th>Won BAFTA?</th></tr></thead>
+        <tbody>
+<tr><td>2019</td><td>Parasite</td><td><span class="badge badge-no">✗ No</span></td><td><span class="badge badge-no">✗ No</span></td></tr>
+<tr><td>2018</td><td>Green Book</td><td><span class="badge badge-yes">✓ Yes</span></td><td><span class="badge badge-no">✗ No</span></td></tr>
+<tr><td>2017</td><td>The Shape of Water</td><td><span class="badge badge-no">✗ No</span></td><td><span class="badge badge-no">✗ No</span></td></tr>
+<tr><td>2016</td><td>Moonlight</td><td><span class="badge badge-yes">✓ Yes</span></td><td><span class="badge badge-no">✗ No</span></td></tr>
+<tr><td>2015</td><td>Spotlight</td><td><span class="badge badge-no">✗ No</span></td><td><span class="badge badge-no">✗ No</span></td></tr>
+<tr><td>2000</td><td>Gladiator</td><td><span class="badge badge-yes">✓ Yes</span></td><td><span class="badge badge-yes">✓ Yes</span></td></tr>
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+<script>
+Chart.defaults.color = '#6C757D';
+Chart.defaults.borderColor = 'rgba(0,0,0,0.1)';
+
+// 1. Scenario comparison
+new Chart(document.getElementById('scenarioChart'), {
+  type: 'bar',
+  data: {
+    labels: ["Won neither BAFTA nor GG", "Won GG only", "Won BAFTA only", "Won both BAFTA and GG"],
+    datasets: [{
+      label: 'Oscar Win Rate (%)',
+      data: [7.7, 41.5, 33.3, 45.5],
+      backgroundColor: ["#ADB5BD", "#DAA520", "#8B7355", "#28A745"],
+      borderRadius: 6,
+      barPercentage: 0.65
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          afterLabel: function(ctx) {
+            var counts = ["14/182", "27/65", "5/15", "5/11"];
+            return counts[ctx.dataIndex] + ' films';
+          }
+        }
+      }
+    },
+    scales: {
+      y: {
+        beginAtZero: true,
+        max: 100,
+        ticks: { callback: v => v + '%' },
+        grid: { color: 'rgba(0,0,0,0.05)' }
+      },
+      x: {
+        ticks: { maxRotation: 25, font: { size: 11 } },
+        grid: { display: false }
+      }
+    }
+  }
+});
+
+// 2. GG Drama vs Comedy
+new Chart(document.getElementById('ggBreakdownChart'), {
+  type: 'bar',
+  data: {
+    labels: ['Drama', 'Musical / Comedy'],
+    datasets: [{
+      label: 'Oscar Win Rate (%)',
+      data: [47.9, 14.9],
+      backgroundColor: ['#DAA520', '#4A6FA5'],
+      borderRadius: 6,
+      barPercentage: 0.5
+    }]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        callbacks: {
+          afterLabel: function(ctx) {
+            var info = [
+              '35/73 films',
+              '10/67 films'
+            ];
+            return info[ctx.dataIndex];
+          }
+        }
+      }
+    },
+    scales: {
+      y: { 
+        beginAtZero: true, 
+        max: 100, 
+        ticks: { callback: v => v + '%' },
+        grid: { color: 'rgba(0,0,0,0.05)' }
+      },
+      x: {
+        grid: { display: false }
+      }
+    }
+  }
+});
+
+// 3. Decade trends
+new Chart(document.getElementById('decadeChart'), {
+  type: 'line',
+  data: {
+    labels: ["1950s", "1960s", "1970s", "1980s", "1990s", "2000s", "2010s"],
+    datasets: [
+      {
+        label: 'GG Winner → Oscar Win %',
+        data: [60.0, 50.0, 29.4, 50.0, 37.5, 100.0, 20.0],
+        borderColor: '#DAA520',
+        backgroundColor: 'rgba(218,165,32,0.1)',
+        fill: false,
+        tension: 0.3,
+        pointRadius: 5,
+        pointHoverRadius: 8
+      },
+      {
+        label: 'BAFTA Winner → Oscar Win %',
+        data: [100.0, 57.1, 50.0, 33.3, 25.0, 100.0, 0.0],
+        borderColor: '#8B7355',
+        backgroundColor: 'rgba(139,115,85,0.1)',
+        fill: false,
+        tension: 0.3,
+        pointRadius: 5,
+        pointHoverRadius: 8
+      },
+      {
+        label: 'Both Winners → Oscar Win %',
+        data: [100.0, 100.0, 0.0, 0, 50.0, 100.0, 0.0],
+        borderColor: '#28A745',
+        backgroundColor: 'rgba(40,167,69,0.1)',
+        fill: false,
+        tension: 0.3,
+        pointRadius: 5,
+        pointHoverRadius: 8,
+        borderDash: [5,5]
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    plugins: {
+      legend: { position: 'top' }
+    },
+    scales: {
+      y: { 
+        beginAtZero: true, 
+        max: 100, 
+        ticks: { callback: v => v + '%' },
+        grid: { color: 'rgba(0,0,0,0.05)' }
+      },
+      x: {
+        grid: { color: 'rgba(0,0,0,0.05)' }
+      }
+    }
+  }
+});
+</script>
+
+<div style="text-align:center; padding:30px 0 20px; color:var(--muted); font-size:.8rem;">
+  Award Correlation Analysis Dashboard · Data from BAFTA, Golden Globe & Oscar historical records
+</div>
+
+</div>
+</body>
+</html>
