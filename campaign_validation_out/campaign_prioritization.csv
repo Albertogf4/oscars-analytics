@@ -1,0 +1,8 @@
+movie,source,n,avg_compound,pos_rate,neg_rate,intent_rate,family_rate,craft_rate,music_rate,perf_rate,confusion_rate,toxicity_rate,score_heart_family,score_craft_event,score_music_listening,score_performance_spotlight,score_reduce_confusion
+Sinners movie,reddit,1439,0.201,54.83,23.97,15.77,6.53,17.93,8.2,5.21,2.36,3.68,26.14,28.99,26.56,25.81,31.3
+F1 movie,reddit,1464,0.214,52.73,19.4,11.0,4.3,15.16,2.8,6.56,2.73,2.19,24.7,27.42,24.33,25.27,30.66
+Marty Supreme,reddit,1432,0.18,50.21,22.97,8.8,4.75,13.76,2.51,11.52,3.14,4.47,23.47,25.72,22.91,25.16,29.25
+F1 movie trailer,youtube,484,0.258,52.27,14.26,8.47,1.65,8.47,2.48,2.07,0.62,1.86,24.36,26.06,24.57,24.46,30.42
+Sinners movie trailer,youtube,683,0.241,52.27,16.84,6.88,2.2,7.91,4.39,3.66,3.07,2.05,23.6,25.03,24.15,23.97,30.36
+One Battle After Another trailer,youtube,1431,0.178,49.69,24.32,5.38,3.98,10.83,2.66,20.82,3.49,11.39,21.84,23.55,21.51,26.05,27.76
+Marty Supreme movie trailer,youtube,612,0.124,42.81,26.31,5.39,3.92,8.01,3.43,7.35,2.78,2.78,21.58,22.6,21.46,22.44,27.19

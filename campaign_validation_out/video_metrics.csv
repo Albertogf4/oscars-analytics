@@ -1,0 +1,65 @@
+movie,video_title,source,n,avg_compound,pos_rate,neg_rate,neu_rate,intent_rate,craft_rate,music_rate,perf_rate,family_rate,confusion_rate,toxicity_rate
+F1 movie,'Pirates of the Caribbean: Dead Men Tell No Tales' - Official Teaser Poster,reddit,99,0.209,54.55,21.21,24.24,5.05,4.04,0.0,5.05,3.03,2.02,1.01
+F1 movie,"After ‘Conjuring: Last Rites,’ Warner Bros. Makes Box Office History With 7 Consecutive Movies Opening Above $40 Million - WB has generated ~$600M year-to-date in theatrical profits, including 'Sinners' ($60M), 'Superman' ($125M), 'Final Destination' ($75M), 'Weapons' ($65M), and 'F1' ($34M).",reddit,100,0.28,59.0,15.0,26.0,3.0,13.0,2.0,6.0,4.0,7.0,2.0
+F1 movie,Brad Pitt’s ‘F1’ Movie Required a Custom-Made Sony Camera to Film High-Octane Racing Scenes,reddit,91,-0.024,25.27,28.57,46.15,6.59,27.47,3.3,3.3,4.4,1.1,3.3
+F1 movie,F1: The Movie is now the highest-grossing sports film of all time,reddit,98,0.169,47.96,16.33,35.71,7.14,12.24,0.0,3.06,1.02,4.08,2.04
+F1 movie,Hollywood Is Cranking Out Original Movies. Audiences Aren’t Showing Up.,reddit,100,0.103,53.0,33.0,14.0,44.0,17.0,4.0,4.0,13.0,4.0,6.0
+F1 movie,I saw 290 movies in theaters in 2025. Here is my full ranking.,reddit,100,0.305,60.0,20.0,20.0,18.0,16.0,5.0,7.0,9.0,5.0,5.0
+F1 movie,I'm a 45yo who hasn't watched rated R horror movies until this month. I watched one a day and ranked them.,reddit,98,0.132,42.86,22.45,34.69,6.12,9.18,0.0,3.06,4.08,2.04,0.0
+F1 movie,"Jerry Bruckheimer Hints at Another ‘F1’ Movie, ‘Top Gun 3’ and New ‘Pirates of the Caribbean’ Film",reddit,99,0.132,43.43,21.21,35.35,6.06,13.13,1.01,2.02,1.01,1.01,0.0
+F1 movie,"July 11-13 Box Office Recap – 'Superman' flies to a great $125M debut domestically. However, it debuts with just $95M overseas, which is below expectations. 'Jurassic World Rebirth' crosses $500M worldwide, and 'F1' reaches almost $400M worldwide.",reddit,99,0.336,69.7,19.19,11.11,11.11,15.15,3.03,13.13,3.03,3.03,4.04
+F1 movie,New Poster for 'F1',reddit,98,0.212,53.06,14.29,32.65,9.18,11.22,4.08,5.1,3.06,2.04,0.0
+F1 movie,Official Discussion - F1: The Movie [SPOILERS],reddit,100,0.363,61.0,13.0,26.0,12.0,23.0,8.0,4.0,3.0,2.0,2.0
+F1 movie,Upcoming F1: The Movie is the 4th most expensive live action Hollywood original ever made unadjusted for inflation.,reddit,95,0.249,61.05,20.0,18.95,8.42,17.89,1.05,7.37,2.11,1.05,2.11
+F1 movie,"WB/Apple's F1: THE MOVIE debuted with $144M worldwide this weekend--$88.4M int'l, $55.6M domestic.",reddit,99,0.216,53.54,22.22,24.24,15.15,17.17,3.03,7.07,5.05,2.02,1.01
+F1 movie,Where does Brad Pitt rank among the true acting greats?,reddit,100,0.28,53.0,6.0,41.0,4.0,5.0,4.0,24.0,0.0,3.0,1.0
+F1 movie,"‘F1’ Movie, Starring Brad Pitt and  Damson Idris, Wraps Filming ",reddit,88,0.23,51.14,19.32,29.55,7.95,28.41,3.41,3.41,9.09,1.14,3.41
+F1 movie trailer,F1 The Movie (2025) | 4K HDR Trailer 2  🎞  Video Enhance Studio AI 1.7.5,youtube,39,0.145,51.28,20.51,28.21,12.82,15.38,7.69,2.56,0.0,0.0,12.82
+F1 movie trailer,F1 | Official Teaser,youtube,200,0.212,47.5,17.0,35.5,7.5,7.5,2.0,2.0,2.0,1.0,2.0
+F1 movie trailer,F1 | Official Trailer,youtube,45,0.23,37.78,11.11,51.11,4.44,6.67,0.0,0.0,2.22,0.0,0.0
+F1 movie trailer,F1® The Movie | Main Trailer,youtube,200,0.332,60.5,11.0,28.5,9.5,8.5,2.5,2.5,1.5,0.5,0.0
+Marty Supreme,First poster for Josh Safdie’s ‘Marty Supreme’ starring Timothée Chalamet,reddit,99,0.148,42.42,18.18,39.39,3.03,8.08,0.0,19.19,4.04,4.04,5.05
+Marty Supreme,Fran Drescher to Play Timothée Chalamet’s Mom in A24’s ‘Marty Supreme’,reddit,97,0.057,36.08,27.84,36.08,2.06,4.12,0.0,15.46,6.19,4.12,2.06
+Marty Supreme,"HBO Max Renews A24 Streaming Deal; ‘Marty Supreme,’ ‘The Death of Robin Hood’, ‘How to Make a Killing’, and ‘Primetime’ Among Upcoming Movies",reddit,55,0.144,43.64,21.82,34.55,5.45,5.45,0.0,1.82,3.64,3.64,9.09
+Marty Supreme,I saw 290 movies in theaters in 2025. Here is my full ranking.,reddit,100,0.305,60.0,20.0,20.0,18.0,16.0,5.0,7.0,9.0,5.0,5.0
+Marty Supreme,IMAX screenings of 'MARTY SUPREME' will begin on 1/30; new poster released,reddit,100,0.184,49.0,24.0,27.0,21.0,28.0,4.0,1.0,5.0,2.0,1.0
+Marty Supreme,Josh Safdie's 'Marty Supreme' Review Thread,reddit,100,0.319,62.0,13.0,25.0,8.0,24.0,6.0,14.0,4.0,1.0,2.0
+Marty Supreme,Marty Supreme | Official Trailer | A24,reddit,99,-0.059,34.34,35.35,30.3,3.03,4.04,0.0,6.06,0.0,1.01,5.05
+Marty Supreme,New Poster for 'Marty Supreme',reddit,100,0.028,39.0,33.0,28.0,6.0,7.0,3.0,14.0,3.0,4.0,6.0
+Marty Supreme,Official Discussion - Marty Supreme [SPOILERS],reddit,100,0.307,68.0,19.0,13.0,9.0,13.0,5.0,14.0,6.0,6.0,3.0
+Marty Supreme,"Paul Thomas Anderson pushes back on the idea that the industry no longer greenlights daring/original projects, naming his favorites from 2025 as examples: 'Weapons', 'Bugonia', 'Sentimental Value', 'Eddington', 'Blue Moon', 'Nouvelle Vague' and 'Marty Supreme'.",reddit,99,0.249,68.69,22.22,9.09,17.17,19.19,4.04,3.03,4.04,3.03,12.12
+Marty Supreme,Timothee Chalamet has won Best Actor in a Comedy or Musical at the 2026 Golden Globes for his performance in Marty Supreme,reddit,99,0.271,56.57,16.16,27.27,3.03,6.06,0.0,24.24,1.01,2.02,2.02
+Marty Supreme,"Timothee Chalamet's ‘Marty Supreme’ Scores Best Limited Opening Weekend Of 2025 with $845K in Only 6 Theaters ($146K Per Theater), An All-Time Record for A24 &amp; Best Overall In Almost 10 Years ('La La Land'), Lands 92 Sold Out Screenings",reddit,97,0.228,53.61,24.74,21.65,12.37,21.65,2.06,21.65,7.22,2.06,6.19
+Marty Supreme,"Tyler, the Creator to Make Film Debut in Timothée Chalamet A24 Movie ‘Marty Supreme’",reddit,93,0.117,37.63,24.73,37.63,5.38,9.68,1.08,12.9,6.45,1.08,4.3
+Marty Supreme,‘Marty Supreme’ Becomes A24’s Highest-Grossing Film Domestically With $80 Million,reddit,99,0.277,60.61,17.17,22.22,10.1,21.21,3.03,6.06,3.03,4.04,3.03
+Marty Supreme,‘Marty Supreme’ Heading To China; Timothée Chalamet Pic Bound To Become A24’s Highest Grossing Ever At Global B.O.,reddit,95,0.096,36.84,27.37,35.79,6.32,14.74,3.16,8.42,8.42,4.21,3.16
+Marty Supreme movie trailer,Marty Supreme | Official Promo HD | A24,youtube,200,0.148,43.0,21.5,35.5,4.5,7.5,2.0,6.0,4.5,3.5,1.0
+Marty Supreme movie trailer,Marty Supreme | Official Teaser HD | A24,youtube,200,0.146,46.0,26.0,28.0,5.5,9.0,4.5,8.5,2.5,2.5,3.0
+Marty Supreme movie trailer,Marty Supreme | Official Trailer HD | A24,youtube,200,0.082,40.5,32.0,27.5,6.5,8.0,4.0,7.5,5.0,2.5,4.5
+Marty Supreme movie trailer,Marty Supreme | Trailer Español Subtitulado (2025),youtube,12,0.083,25.0,16.67,58.33,0.0,0.0,0.0,8.33,0.0,0.0,0.0
+One Battle After Another trailer,ONE BATTLE AFTER ANOTHER Trailer (2025) Leonardo DiCaprio,youtube,200,0.085,39.5,32.0,28.5,2.5,6.5,2.5,21.0,1.5,4.5,12.0
+One Battle After Another trailer,One Battle After Another  - Official Trailer - Warner Bros. UK &amp; Ireland,youtube,498,0.093,44.58,32.73,22.69,5.02,14.66,5.02,23.49,3.61,4.62,19.88
+One Battle After Another trailer,One Battle After Another | Back in IMAX 70mm,youtube,201,0.258,58.71,16.42,24.88,12.94,13.93,1.0,11.94,1.99,3.98,2.49
+One Battle After Another trailer,One Battle After Another | Official Trailer 2,youtube,400,0.306,57.75,12.5,29.75,3.75,8.25,1.5,23.0,5.5,1.5,2.25
+One Battle After Another trailer,One Battle After Another | Official Trailer 3 | Warner Bros. Entertainment,youtube,129,0.127,46.51,28.68,24.81,4.65,6.2,0.0,17.05,7.75,3.1,20.16
+One Battle After Another trailer,One Battle After Another | Trailer Español Subtitulado (2025) › Leonardo DiCaprio,youtube,3,0.133,33.33,33.33,33.33,0.0,0.0,0.0,33.33,0.0,0.0,0.0
+Sinners movie,28 Years Later: The Bone Temple - Review Thread,reddit,100,0.226,55.0,19.0,26.0,6.0,16.0,4.0,9.0,5.0,3.0,2.0
+Sinners movie,"Ben Stiller questions Variety's reporting of 'Sinners' box office performance: ""In what universe does a 60 million dollar opening for an original studio movie warrant this headline?""",reddit,100,0.053,41.0,33.0,26.0,10.0,19.0,2.0,3.0,4.0,1.0,6.0
+Sinners movie,Box Office Update: ‘Sinners’ Sinks Teeth Into Huge $45.7M To Boast One Of The Smallest Drops In History For A Movie Playing Outside Of The Year-End Holidays,reddit,99,0.147,45.45,21.21,33.33,13.13,13.13,1.01,4.04,6.06,2.02,5.05
+Sinners movie,Hollywood Is Cranking Out Original Movies. Audiences Aren’t Showing Up.,reddit,100,0.103,53.0,33.0,14.0,44.0,17.0,4.0,4.0,13.0,4.0,6.0
+Sinners movie,I saw 290 movies in theaters in 2025. Here is my full ranking.,reddit,100,0.305,60.0,20.0,20.0,18.0,16.0,5.0,7.0,9.0,5.0,5.0
+Sinners movie,I saw 298 movies in theaters in 2024. Here is my full ranking.,reddit,99,0.225,55.56,21.21,23.23,18.18,16.16,6.06,1.01,3.03,1.01,2.02
+Sinners movie,"Mississippi city where 'Sinners' is set has no movie theater, petitions for cast visit and public screening",reddit,96,0.17,53.12,25.0,21.88,20.83,11.46,5.21,3.12,4.17,2.08,1.04
+Sinners movie,Official Discussion - Sinners [SPOILERS],reddit,100,0.189,57.0,29.0,14.0,7.0,17.0,21.0,8.0,8.0,1.0,2.0
+Sinners movie,"Ryan Coogler channeled the things that terrify him into his new movie, “Sinners,” by David Sims",reddit,97,0.178,54.64,24.74,20.62,2.06,9.28,13.4,3.09,1.03,5.15,1.03
+Sinners movie,"Ryan Coogler on Why He Was Compelled To Make The Wholly Original ‘Sinners’ Before Revisiting Franchises, Confirms Next Movie is “Black Panther 3”",reddit,100,0.136,52.0,25.0,23.0,0.0,16.0,1.0,12.0,4.0,1.0,5.0
+Sinners movie,Ryan Coogler's 'Sinners' - Review Thread,reddit,100,0.293,62.0,21.0,17.0,8.0,19.0,15.0,5.0,7.0,2.0,4.0
+Sinners movie,Sinners was not a good movie,reddit,100,0.212,56.0,30.0,14.0,19.0,37.0,25.0,9.0,14.0,4.0,7.0
+Sinners movie,Special 'Sinners' Screening Set for Mississippi Movie Location (Clarksdale) That Has No Theater; Town Mayor Says Warner Bros. is Planning to Bring in the Cast for the Screening,reddit,51,0.295,64.71,15.69,19.61,11.76,5.88,7.84,3.92,5.88,0.0,1.96
+Sinners movie,"‘Sinners’ Passes A Box Office Milestone No Original Film Has Reached in 8 Years | Topping $200M, It is the Highest Domestic Grossing Original Movie Since Pixar's “Coco,” Which Grossed $210M During its 2017 Thanksgiving Run.",reddit,97,0.222,52.58,17.53,29.9,18.56,17.53,4.12,2.06,4.12,1.03,1.03
+Sinners movie,“Just make good original movies”.,reddit,100,0.31,65.0,20.0,15.0,38.0,32.0,8.0,3.0,9.0,2.0,5.0
+Sinners movie trailer,SINNERS | In theaters April 18,youtube,200,0.226,50.0,15.5,34.5,9.5,1.5,2.0,4.0,2.5,1.0,1.5
+Sinners movie trailer,Sinners - Official Trailer - Warner Bros. UK &amp; Ireland,youtube,45,0.259,62.22,8.89,28.89,2.22,8.89,4.44,2.22,2.22,2.22,2.22
+Sinners movie trailer,Sinners | Close of Sale Trailer,youtube,38,0.176,42.11,15.79,42.11,13.16,5.26,5.26,0.0,7.89,0.0,5.26
+Sinners movie trailer,Sinners | Official Trailer,youtube,200,0.249,54.0,18.5,27.5,4.5,14.0,6.5,4.5,1.0,3.0,2.5
+Sinners movie trailer,Sinners | Official Trailer 2,youtube,200,0.256,52.5,18.5,29.0,6.5,8.5,4.5,3.5,2.0,6.0,1.5
