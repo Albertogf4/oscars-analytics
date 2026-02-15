@@ -1,0 +1,11 @@
+# Backend cache
+backend/cache/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# IDE
+.vscode/
+.idea/
